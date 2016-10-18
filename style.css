@@ -59,12 +59,6 @@ p {
   color: white;
 }
 
-#menu button {
-  background-color: #A48F6B
-  border: none;
-  text-decoration: none;
-
-}
 
 #linker {
   text-align: center;
@@ -77,6 +71,8 @@ p {
   font-size: 30px;
 }
 
+#menu a:hover, #myDropdown a:hover {background-color: #C6AA77}
+
 #side {
   height: 100%;
   background-color: #F5F5F5;
@@ -84,14 +80,16 @@ p {
 }
 
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+#myDropdown {
+    display: none;
+    position: absolute;
+    left: 465px;
+    background-color: #A48F6B;
+    min-width: 143.56px;
 }
 
-
-#dropdown {
-  display: none;
-  position: absolute;
-  color: blue;
+#myDropdown a {
+    display: block;
 }
+
+.wtf {display:block;}
