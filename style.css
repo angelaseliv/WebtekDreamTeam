@@ -59,6 +59,13 @@ p {
   color: white;
 }
 
+#menu button {
+  background-color: #A48F6B
+  border: none;
+  text-decoration: none;
+
+}
+
 #linker {
   text-align: center;
 }
@@ -74,4 +81,17 @@ p {
   height: 100%;
   background-color: #F5F5F5;
   margin-top: 20px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+#dropdown {
+  display: none;
+  position: absolute;
+  color: blue;
 }
