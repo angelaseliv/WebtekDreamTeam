@@ -3,11 +3,11 @@ body {
   margin: auto;
   background-color: #F3E9DA;
 }
-
+/*
 html, body {
   height: 100%;
 }
-
+*/
 #fjell {
   width: 900px;
   margin-top: 10px;
@@ -25,10 +25,10 @@ footer {
 	position: absolute;
 	height: 50px;
   bottom: -50px;
-	width:900px;
+	width:960px;
   background-color: #A48F6B;
-  margin: 0 30px;
-  font-family: Microsoft YaHei Light;;
+  margin: 0
+  font-family: Microsoft YaHei Light;
   color: #F0F0F0;
   font-size: 15px;
   text-align: center;
@@ -39,13 +39,6 @@ p {
   font-size: 25px;
   color: #32220A;
   margin: 30px;
-}
-
-#wrapper {
-  background-color: #F5F5F5;
-  width: 960px;
-  position: relative;
-  min-height: calc(100% - 50px);
 }
 
 #menu {
@@ -74,11 +67,17 @@ p {
 #menu a:hover, #myDropdown a:hover {background-color: #C6AA77}
 
 #side {
-  height: 100%;
+  min-height: 100%;
   background-color: #F5F5F5;
   margin-top: 20px;
+  width: 960px;
 }
 
+#wrapper {
+  width: 960px;
+  position: relative;
+  min-height: calc(100% - 50px);
+}
 
 #myDropdown {
     display: none;
@@ -94,7 +93,7 @@ p {
 
 #innhold img {
   width: 250px;
-  height:170px;
+  height: 170px;
 }
 
 #innhold {
@@ -102,7 +101,19 @@ p {
   margin: auto;
 }
 
-footer img {
-  width: 25px;
-  height: 25px;
+#insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 120px;
+  top: 10px;
+}
+
+
+#face {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 160px;
+  top: 10px;
 }
