@@ -24,6 +24,10 @@ html, body {
   margin-bottom: -5px;
 }
 
+#space {
+  height: 30px;
+}
+
 #logohvit {
   width: 80px;
   position: absolute;
