@@ -156,3 +156,12 @@ div.galleribilder{
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.tekstunderbilde{
+  font-size: 80%;
+  margin-top: 0%;
+}
+
+.boksmedtekst{
+  max-width: 270px;
+}
