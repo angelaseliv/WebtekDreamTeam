@@ -160,3 +160,27 @@ div.galleribilder{
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.tekstunderbildet1{
+  font-size: 80%;
+  margin-top: 0%;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.tekstunderbildet2{
+  font-size: 80%;
+  margin-top: 0%;
+  display: inline-block;
+}
+
+.tekstunderbildet3{
+  font-size: 80%;
+  margin-top: 0%;
+  display: inline-block;
+}
+
+
+.boksmedtekst{
+  max-width: 270px;
+}
