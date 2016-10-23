@@ -106,3 +106,28 @@ footer img {
   width: 25px;
   height: 25px;
 }
+
+#tekstgalleri{
+  font-size: 120%;
+  max-width: 60em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#gallerioverskrift{
+  text-align: center;
+  padding-top: 1%;
+}
+
+div.galleribilder{
+  margin: 25px; 0 auto;
+
+}
+
+.bilde{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
