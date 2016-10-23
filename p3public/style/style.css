@@ -64,6 +64,11 @@ p {
   font-size: 30px;
 }
 
+#menu {
+  color: #F0F0F0;
+  font-size: 30px;
+}
+
 #menu a:hover, #myDropdown a:hover {background-color: #C6AA77}
 
 #side {
