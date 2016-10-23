@@ -157,26 +157,26 @@ div.galleribilder{
   padding-right: 15px;
 }
 
-.tekstunderbildet1{
+.tekstunderbilder{
   font-size: 80%;
   margin-top: 0%;
   display: inline-block;
   margin-right: 50px;
 }
 
-.tekstunderbildet2{
-  font-size: 80%;
-  margin-top: 0%;
-  display: inline-block;
-}
-
-.tekstunderbildet3{
-  font-size: 80%;
-  margin-top: 0%;
-  display: inline-block;
-}
-
-
 .boksmedtekst{
   max-width: 270px;
+}
+
+#linktilkjop{
+  margin-left: 80%;
+  font-size: 140%;
+}
+
+a {
+  color: #5c5c3d;
+}
+
+a:hover{
+  color: #a3a375;
 }
