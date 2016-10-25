@@ -38,10 +38,17 @@
 
     <div class="galleribilder">
 
+  <div class="bilde1">
     <figure class="item">
-      <img class="bilde" src="img/bilde1.jpg" alt="bilde1" style="width:270px">
+      <img class="bilde" src="img/bilde1.jpg" alt="bilde1" style="cursor:pointer" style="width:270px" onclick="showImage"('img/bilde1.jpg');>
+          <div id="largeImgPanel" onclick="hideMe(this);">
+            <img id="largeImg" style="height: 100%; margin: 0; padding: 0;">
+          </div>
       <figcaption class="caption">Hjort i Forollhogna </figcaption>
     </figure>
+  </div>
+
+
 
     <figure class="item">
       <img class="bilde" src="img/bilde2.jpg" alt="bilde2" style="width:270px">
@@ -150,5 +157,5 @@
     </footer>
   </div>
   </div>
-  <script src="scripts/dropdown.js"></script>
+  <script src="scripts/dropdown.js" src="scripts/galleribilder.js"></script>
 </body>
