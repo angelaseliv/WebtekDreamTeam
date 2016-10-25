@@ -193,3 +193,7 @@ a {
 a:hover{
   color: #a3a375;
 }
+
+#innhold2 {
+  width: 450px;
+}
