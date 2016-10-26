@@ -161,6 +161,21 @@ footer {
   padding-top: 1%;
 }
 
+#innledninginspirasjon{
+  max-width: 60em;
+  text-align: center;
+  padding-top: 1%;
+  font-size: 120%;
+}
+
+.inspirasjonen{
+  padding-left: 70px;
+  padding-right: 70px;
+  max-width: 60em;
+
+}
+
+
 div.galleribilder{
   margin: 0 auto;
 
