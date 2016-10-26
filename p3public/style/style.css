@@ -160,7 +160,6 @@ div.galleribilder{
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
-   /*Enten den her eller så æ bildet gigantisk*/
 }
 
 .item {
@@ -178,6 +177,7 @@ div.galleribilder{
     padding-bottom: 5px;
     padding-left: 20px;
     }
+
 
 
 #linktilkjop{
