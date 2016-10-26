@@ -49,11 +49,18 @@ footer {
   line-height: 50px;
 	}
 
-p {
+#innhold p {
   font-size: 25px;
   color: #32220A;
   margin: 30px;
 }
+
+#innhold h1 {
+  margin: 30px;
+}
+
+
+
 
 #menu {
   width: 900px;
