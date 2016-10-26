@@ -50,13 +50,12 @@ footer {
 	}
 
 #innhold p {
-  font-size: 25px;
   color: #32220A;
-  margin: 30px;
+  margin-left: 30px;
 }
 
 #innhold h1 {
-  margin: 30px;
+  margin-left: 30px;
 }
 
 
@@ -117,11 +116,12 @@ footer {
     display: block;
 }
 
+/*
 #innhold img {
   width: 250px;
   height: 170px;
 }
-
+*/
 #innhold {
   width: 900px;
   margin: auto;
@@ -222,6 +222,34 @@ a:hover{
 
 #innhold2 {
   width: 450px;
+}
+
+
+#kontakt {
+  width: 400px;
+  font-size: 20px;
+  right: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0px;
+  margin-left: 30px;;
+  margin-bottom: 350px;
+  margin-top: 50px;
+}
+
+#kontaktnavn {
+  font-size: 25px;
+}
+
+#kontakt h1, #kontakt p{
+  margin: 0;
+}
+
+#kontaktbilde {
+  margin-top: 40px;
+  width: 400px;
+  height: 550px;
+  margin-right: 0;
 }
 
 .modal {
