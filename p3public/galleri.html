@@ -30,18 +30,25 @@
     <h1 id="gallerioverskrift">Galleri</h1>
 
     <p id="tekstgalleri"> Her kan du se et lite utvalg av bilder Jens Ludvig Larssen har tatt.
-      For navn og detaljer om bildene, står det under bildet. Det er også mulig å kjøpe bildene, dersom du går innpå siden "kjøp". <p>
+      For detaljer og navn på bildene, står det under bildet. Det er også mulig å kjøpe bildene, dersom du går innpå siden "kjøp". <p>
 
         <div id="linktilkjop">
           <a href="URL"> Gå til kjøp! </a>
-        </div>
+        </div><br>
 
     <div class="galleribilder">
 
+  <div class="bilde1">
     <figure class="item">
-      <img class="bilde" src="img/bilde1.jpg" alt="bilde1" style="width:270px">
+      <img class="bilde" src="img/bilde1.jpg" alt="bilde1" style="cursor:pointer" style="width:270px" onclick="showImage"('img/bilde1.jpg');>
+          <div id="largeImgPanel" onclick="hideMe(this);">
+            <img id="largeImg" style="height: 100%; margin: 0; padding: 0;">
+          </div>
       <figcaption class="caption">Hjort i Forollhogna </figcaption>
     </figure>
+  </div>
+
+
 
     <figure class="item">
       <img class="bilde" src="img/bilde2.jpg" alt="bilde2" style="width:270px">
@@ -70,12 +77,9 @@
       <img class="bilde" src="img/bilde6.jpg" alt="bilde6" style="width:270px">
       <figcaption class="caption">Rev på fjellet </figcaption>
     </figure>
+  </div>
 
-
-    </div>
-
-    <div class="galleribilder">
-
+  <div class="galleribilder">
     <figure class="item">
       <img class="bilde" src="img/bilde7.jpg" alt="bilde7" style="width:270px">
       <figcaption class="caption"> Rev </figcaption>
@@ -87,25 +91,58 @@
     </figure>
 
 
+    <figure class="item">
       <img class="bilde" src="img/bilde9.jpg" alt="bilde9" style="width:270px">
-    </div>
+      <figcaption class="caption"> Hjort på beite </figcaption>
+    </figure>
+  </div>
 
-    <div class="galleribilder">
+  <div class="galleribilder">
+    <figure class="item">
       <img class="bilde" src="img/bilde10.jpg" alt="bilde10" style="width:270px">
+      <figcaption class="caption"> Blomster i solnedgang </figcaption>
+    </figure>
+
+    <figure class="item">
       <img class="bilde" src="img/bilde11.jpg" alt="bilde11" style="width:270px">
+      <figcaption class="caption"> Sommerfugl </figcaption>
+    </figure>
+
+    <figure class="item">
       <img class="bilde" src="img/bilde12.jpg" alt="bilde12" style="width:270px">
+      <figcaption class="caption"> Hjort </figcaption>
+    </figure>
     </div>
 
     <div class="galleribilder">
+
+    <figure class="item">
       <img class="bilde" src="img/bilde13.jpg" alt="bilde13" style="width:270px">
+      <figcaption class="caption"> Sommerfugl på hundekjeks </figcaption>
+    </figure>
+    <figure class="item">
       <img class="bilde" src="img/bilde14.jpg" alt="bilde14" style="width:270px">
+      <figcaption class="caption"> Tiur i vinterlandskap </figcaption>
+    </figure>
+    <figure class="item">
       <img class="bilde" src="img/bilde15.jpg" alt="bilde15" style="width:270px">
+      <figcaption class="caption"> Moskus </figcaption>
+    </figure>
     </div>
 
     <div class="galleribilder">
+    <figure class="item">
       <img class="bilde" src="img/bilde16.jpg" alt="bilde16" style="width:270px">
+      <figcaption class="caption"> Rådyr i vinterlandskap </figcaption>
+    </figure>
+    <figure class="item">
       <img class="bilde" src="img/bilde17.jpg" alt="bilde17" style="width:270px">
+      <figcaption class="caption"> Padling i solnedgang </figcaption>
+    </figure>
+    <figure class="item">
       <img class="bilde" src="img/bilde18.jpg" alt="bilde18" style="width:270px">
+      <figcaption class="caption"> Solnedgang </figcaption>
+    </figure>
     </div> <br><br>
 
 
@@ -120,5 +157,5 @@
     </footer>
   </div>
   </div>
-  <script src="scripts/dropdown.js"></script>
+  <script src="scripts/dropdown.js" src="scripts/galleribilder.js"></script>
 </body>

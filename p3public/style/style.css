@@ -167,9 +167,8 @@ div.galleribilder{
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
+   /*Enten den her eller så æ bildet gigantisk*/
 }
-
-
 
 .item {
   vertical-align: top;
