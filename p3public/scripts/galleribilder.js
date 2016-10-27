@@ -1,20 +1,42 @@
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+function enlarge(bilde) {
+  var bakgrunn = document.getElementById("enlargebakgrunn");
+  var pic = document.createElement("IMG");
+  bakgrunn.style.display="block";
+  document.getElementById("vistbilde").src = bilde.getAttribute("src")
+  document.getElementById("infotekst").innerHTML = bilde.alt;
+  document.getElementById("footer").style.display="none";
+  document.getElementById("vistbilde").onclick = function(){
+    bakgrunn.style.display="none";
+    document.getElementById("footer").style.display="inline";
+    x = "forstegang";
+  }
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var x = "forstegang";
+var a = document.getElementById("jass")
+var tag = a.getElementsByTagName("img")
+var hoved = document.getElementById("vistbilde")
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+function nextpic(retning) {
+  let lengde = tag.length;
+  if (x == "forstegang") {
+    for (let i = 0; i < lengde; i++) {
+      if (tag[i].getAttribute("src") == hoved.getAttribute("src")) {
+        x = i+retning;
+      }
+    }
+  }
+  else if (x == lengde-1 && retning == 1) {
+    x = 0
+  }
+  else if (x == 0 && retning == -1) {
+    x = lengde -1
+  }
+  else {
+    x += retning
+  }
+  console.log(x)
+  document.getElementById("vistbilde").src = tag[x].getAttribute("src")
+  document.getElementById("infotekst").innerHTML = tag[x].alt;
+
 }
