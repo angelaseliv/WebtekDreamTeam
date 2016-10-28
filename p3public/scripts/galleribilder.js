@@ -5,7 +5,9 @@ function enlarge(bilde) {
   document.getElementById("vistbilde").src = bilde.getAttribute("src")
   document.getElementById("infotekst").innerHTML = bilde.alt;
   document.getElementById("footer").style.display="none";
-  document.getElementById("vistbilde").onclick = function(){
+  document.getElementById("frem").style.display="inline";
+  document.getElementById("tilbake").style.display="inline";
+  document.getElementById("exit").onclick = function(){
     bakgrunn.style.display="none";
     document.getElementById("footer").style.display="inline";
     x = "forstegang";
@@ -26,13 +28,17 @@ function nextpic(retning) {
       }
     }
   }
-  else if (x == lengde-1 && retning == 1) {
-    x = 0
+  else if (x == lengde-2 && retning == 1) {
+    x+= retning
+    document.getElementById("frem").style.display="none";
   }
-  else if (x == 0 && retning == -1) {
-    x = lengde -1
+  else if (x == 1 && retning == -1) {
+    x += retning
+    document.getElementById("tilbake").style.display="none";
   }
   else {
+    document.getElementById("frem").style.display="inline";
+    document.getElementById("tilbake").style.display="inline";
     x += retning
   }
   console.log(x)

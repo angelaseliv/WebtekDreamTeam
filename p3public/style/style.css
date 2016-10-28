@@ -12,8 +12,8 @@ html, body {
 #overskrift {
   position: absolute;
   font-family: Microsoft YaHei Light;
-  top: -10px;
-  right: 20px;
+  top: 0px;
+  right: 30px;
   color: #F0F0F0;
 }
 
@@ -287,6 +287,14 @@ a:hover{
   position: absolute;
   top: 40%;
   left: 20px;
+  color: #f1f1f1;
+  font-size: 40px;
+}
+
+#exit {
+  position: absolute;
+  top: 5px;
+  right: 20px;
   color: #f1f1f1;
   font-size: 40px;
 }
