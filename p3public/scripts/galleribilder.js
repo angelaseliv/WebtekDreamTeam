@@ -34,7 +34,7 @@ var hoved = document.getElementById("vistbilde")
 function nextpic(retning) {
   document.getElementById("frem").style.display="inline";
   document.getElementById("tilbake").style.display="inline";
-  let lengde = tag.length;
+  var lengde = tag.length;
   if (x == "forstegang") {
     for (let i = 0; i < lengde; i++) {
       if (tag[i].getAttribute("src") == hoved.getAttribute("src")) {
