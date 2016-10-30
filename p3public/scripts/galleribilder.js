@@ -1,10 +1,15 @@
+//Variabler brukt senere i scriptet
+
 var bakgrunn = document.getElementById("enlargebakgrunn");
 
 var x = "forstegang";
 var a = document.getElementById("jass")
 var tag = a.getElementsByTagName("img")
 var hoved = document.getElementById("vistbilde")
+var musoverbilde = 1
 
+
+//Funksjon for å bruke diverse tastetrykk til forskjellige ting
 document.onkeydown = keycheck;
 function keycheck(e) {
   e = e || window.event;
@@ -21,6 +26,8 @@ function keycheck(e) {
   }
 }
 
+
+//Forstørre bildet
 function enlarge(bilde) {
   var pic = document.createElement("IMG");
   bakgrunn.style.display="block";
@@ -48,6 +55,27 @@ function closeit(){
   }
 }
 
+
+
+//Gjør så bildevisningen lukkes om man trykker på skjermen utenfor bildet. Veldig rar måte å gjøre det på, men er den enkleste måten for meg da det blir for mye å endre på i html, css og js hvis ikke.
+document.getElementById("innhald").onmouseover = function(){
+  musoverbilde = 1
+}
+document.getElementById("innhald").onmouseout = function(){
+  musoverbilde = 0
+}
+bakgrunn.onclick = function(){
+  if (musoverbilde == 0){
+    closeit();
+  }
+}
+
+
+
+
+
+
+//Funksjon for å bytte bilde i fremvisningen
 function nextpic(retning) {
   document.getElementById("frem").style.display="inline";
   document.getElementById("tilbake").style.display="inline";
@@ -68,9 +96,6 @@ function nextpic(retning) {
   else if (x == 0) {
     document.getElementById("tilbake").style.display="none";
   }
-
-  console.log(x)
   document.getElementById("vistbilde").src = tag[x].getAttribute("src")
   document.getElementById("infotekst").innerHTML = tag[x].alt;
-
 }
