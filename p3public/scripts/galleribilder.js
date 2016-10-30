@@ -1,5 +1,27 @@
+var bakgrunn = document.getElementById("enlargebakgrunn");
+
+var x = "forstegang";
+var a = document.getElementById("jass")
+var tag = a.getElementsByTagName("img")
+var hoved = document.getElementById("vistbilde")
+
+document.onkeydown = keycheck;
+function keycheck(e) {
+  e = e || window.event;
+  if (bakgrunn.style.display == "block") {
+    if (e.keyCode == '39' && document.getElementById("frem").style.display == "inline" ) { //arrow-right = galleri til høyre, bare hvis frem-knappen er der.
+       nextpic(+1);
+    }
+    else if (e.keyCode == '37' &&  document.getElementById("tilbake").style.display == "inline") { //arrow-left = galleri til venstre, bare hvis tilbake-knappen er der
+      nextpic(-1);
+    }
+    else if (e.keyCode == '27' && bakgrunn.style.display=="block")  {
+      closeit()
+    }
+  }
+}
+
 function enlarge(bilde) {
-  var bakgrunn = document.getElementById("enlargebakgrunn");
   var pic = document.createElement("IMG");
   bakgrunn.style.display="block";
   document.getElementById("vistbilde").src = bilde.getAttribute("src")
@@ -15,21 +37,16 @@ function enlarge(bilde) {
       document.getElementById("frem").style.display="none";
   }
 
-  document.getElementById("exit").onclick = function(){
+  document.getElementById("exit").onclick = closeit
+}
+
+function closeit(){
+  if (bakgrunn.style.display=="block") {
     bakgrunn.style.display="none";
     document.getElementById("footer").style.display="inline";
     x = "forstegang";
-
   }
 }
-
-var x = "forstegang";
-var a = document.getElementById("jass")
-var tag = a.getElementsByTagName("img")
-var hoved = document.getElementById("vistbilde")
-
-
-
 
 function nextpic(retning) {
   document.getElementById("frem").style.display="inline";
