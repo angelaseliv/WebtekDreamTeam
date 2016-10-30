@@ -265,9 +265,9 @@ footer {
   color: white;
   height: 60px;
   width: 35px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   left: 30px;
-  top: 230px;
+  top: 215px;
   text-align: center;
   font-size: 50px;
   padding-bottom: 10px;
@@ -279,9 +279,9 @@ footer {
   color: white;
   height: 60px;
   width: 35px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   right: 30px;
-  top: 230px;
+  top: 215px;
   text-align: center;
   font-size: 50px;
   padding-bottom: 10px;
@@ -433,13 +433,13 @@ a:hover{
 #frem {
     position: absolute;
     right: 20px;
-    top: 300px;
+    top: 200px;
 }
 
 #tilbake {
   position: absolute;
   left: 20px;
-  top: 300px;
+  top: 200px;
 }
 
 #exit {
