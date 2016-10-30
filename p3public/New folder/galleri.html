@@ -2,7 +2,6 @@
 <html>
 <head>
   <link rel="stylesheet" href="style/style.css">
-  <link rel="icon" type="image/png" href="img/icon.png">
   <title>Jens Larssen</title>
   <meta charset="utf-8">
 </head>
@@ -16,21 +15,19 @@
         <li><a href="forside.html" id="menyforside">Forside </a></li>
         <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a></li>
         <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
-          <li><a href="kjop_pris.html"  id="menykjop">Kjøp</a></li>
+          <li><a href="kjop_salg.html"  id="menykjop">Kjøp</a></li>
         </ul>
         <li><a href="kontaktinformasjon.html" id="menykontakt">&nbsp;Kontakt </a></li>
         <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a></li>
         <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
-          <li><a href="#" id="menykaaseri">Kåseri</a></li>
-          <li><a href="#" id="menyfototips">Fototips</a></li>
+          <li><a href="kaaseri.html" id="menykaaseri">Kåseri</a></li>
+          <li><a href="fototips.html" id="menyfototips">Fototips</a></li>
         </ul>
-      <li><a href="#" id="menyopplevelser">&nbsp;Opplevelser</a></li>
+      <li><a href="blogg.html" id="menyopplevelser">&nbsp;Opplevelser</a></li>
     </ul>
     </div>
 
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
-
-
     <div id = "innhold">
     <h1 id="gallerioverskrift">Galleri</h1>
 
@@ -157,11 +154,6 @@
         <span id="exit">&times;</span>
       </div>
   </div>
-</div>
-
-
-
-    <!-- TIL HER -->
 
     <footer id = "footer"> <span>JENS LUDVIG LARSSEN - +47 934 27 984 – jensludviglarssen@gmail.com - ©2016 &ensp;&ensp; </span>
         <a href="https://www.instagram.com/jensludviglarssen/" target="_blank">
@@ -172,6 +164,7 @@
     </footer>
   </div>
   </div>
-  <script src="scripts/dropdown.js"></script>
-  <script src="scripts/galleribilder.js"></script>
+</div>
+  <script src="scripts/dropdown.js" ></script>
+  <script src="scripts/galleribilder.js" ></script>
 </body>

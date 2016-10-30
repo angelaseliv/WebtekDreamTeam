@@ -2,42 +2,48 @@
 <html>
 <head>
   <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/png" href="img/icon.png">
   <title>Jens Larssen</title>
   <meta charset="utf-8">
+
 </head>
-<body>
+<body onload="slide()">
   <div id="side">
   <div id="wrapper">
-    <img src="img/header5.jpg" id="headerbilde">
-    <p id="overskrift"> JENS LARSSEN FOTO </p>
+    <div id="space"> </div>
     <div id="menu">
       <img src="img/logohvit.png" id="logohvit">
-      <div id="linker">
-        <a href="forside.html">Forside</a>&nbsp;|
-        <a href="galleri.html">Galleri</a>&nbsp;|
-        <a href="kontaktinformasjon.html">Kontakt</a>&nbsp;|
-        <a href="mininspirasjon.html" onmouseover="dropdown()" onmouseout="notDropdown()">Inspirasjon</a>&nbsp;|
-        <div id="myDropdown">
-          <a href="#">Kåseri</a>
-          <a href="#">Fototips</a>
-        </div>
-        <a href="#">Opplevelser</a>
-      </div>
+        <ul id="menyinnhold">
+        <li><a href="forside.html" id="menyforside">Forside </a></li>
+        <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a></li>
+        <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
+          <li><a href="kjop_pris.html"  id="menykjop">Kjøp</a></li>
+        </ul>
+        <li><a href="kontaktinformasjon.html" id="menykontakt">&nbsp;Kontakt </a></li>
+        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a></li>
+        <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
+          <li><a href="kaaseri.html" id="menykaaseri">Kåseri</a></li>
+          <li><a href="fototips.html" id="menyfototips">Fototips</a></li>
+        </ul>
+      <li><a href="blogg.html" id="menyopplevelser">&nbsp;Opplevelser</a></li>
+    </ul>
     </div>
+    <div id="bildeslide">
+      <img src="img/header1.jpg" id="headerbilde">
+        <div id="leftright">
+          <span onclick="neste(1)" id="right"><b>&rsaquo;</b></span>
+          <span onclick="neste(-1)" id="left"><b>&lsaquo;</b></span>
+        </div>
+    </div>
+
 
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
 
-    <div id=innhold>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
-    <p>TEKST</p>
+    <div id="innhold">
+      <div id="innhold">
+      <h1>Jens Larssen Foto</h1>
+      <h1><a href="http://folk.ntnu.no/haavarhu/public_html/">Public_html</a></h1>
+    </div>
     </div>
 
     <!-- TIL HER -->
@@ -52,4 +58,5 @@
   </div>
   </div>
   <script src="scripts/dropdown.js"></script>
+  <script src="scripts/slide.js"></script>
 </body>

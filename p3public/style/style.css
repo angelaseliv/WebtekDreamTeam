@@ -5,7 +5,8 @@ OVERSIKT:
 3. forsidebilde
 4. Meny
 5. Footer
-6. Galleri
+6. Forsiden
+7. Galleri
 
 */
 
@@ -41,6 +42,7 @@ html, body {
 #innhold {
   width: 900px;
   margin: auto;
+  min-height: 850px;
 }
 
 #innhold p {
@@ -113,7 +115,7 @@ html, body {
   border-right: 2px solid white;
 }
 
-#menykontakt, #menykaaseri, #menyfototips, #menykjop, #menyopplevelser {
+#menykontakt, #menykaaseri, #menykjop, #menyfototips, #menyopplevelser {
   border-left: 2px solid white;
 }
 
@@ -126,13 +128,38 @@ html, body {
     overflow: hidden;
 }
 
-# a {
-  width: 156px;
+#menu a {
+  display: inline-block;
+  height: 55px;
+}
+
+#menyforside {
+  width: 135px;
+  margin-left: 83px;
+}
+
+#menygalleri {
+  width: 120px;
+}
+
+#menykontakt {
+width: 145px;
+}
+
+#menyinspirasjon {
+  width: 180px;
+}
+
+#menyopplevelser {
+  width: 200px;
 }
 
 #menu li {
   display: inline;
-  height: 100%;
+}
+
+#menyinnhold {
+  display: inline-flex;
 
 }
 
@@ -145,10 +172,10 @@ html, body {
   position: absolute;
   text-align: center;
   top: 100%;
-  left: 449.4px;
+  left: 487px;
   padding-top: 3px;
   background-color: #A48F6B;
-  width: 177.5px;
+  width: 184px;
   height: 110px;
 }
 
@@ -161,7 +188,7 @@ html, body {
 #drop2 a {
     text-align: center;
     display: table;
-    width: 173.6px;
+    width: 180px;
 }
 
 #drop2 li {
@@ -176,22 +203,21 @@ html, body {
   position: absolute;
   text-align: center;
   top: 100%;
-  left: 206.8px;
+  left: 218px;
   padding-top: 3px;
   background-color: #A48F6B;
-  width: 112.9px;
+  width: 124px;
   height: 55px;
 }
 
 #menykjop a {
-  width: 50px;
   text-align: left;
 }
 
 #drop a {
     text-align: center;
     display: table;
-    width: 109.9px;
+    width: 120px;
 }
 
 #drop li {
@@ -232,8 +258,40 @@ footer {
 }
 
 
+/* 6. Forsiden */
+#left {
+  position: absolute;
+  display: block;
+  color: white;
+  height: 60px;
+  width: 35px;
+  background-color: black;
+  left: 30px;
+  top: 230px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
 
-/* 6. Galleri */
+#right {
+  position: absolute;
+  display: block;
+  color: white;
+  height: 60px;
+  width: 35px;
+  background-color: black;
+  right: 30px;
+  top: 230px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+#right:hover, #left:hover {
+ cursor: pointer;
+}
+
+/* 7. Galleri */
 #tekstgalleri{
   font-size: 120%;
   max-width: 60em;
