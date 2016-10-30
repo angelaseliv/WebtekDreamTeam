@@ -1,4 +1,17 @@
+/*
+OVERSIKT:
+1. Generelt
+2. Tekst o.l. på siden
+3. forsidebilde
+4. Meny
+5. Footer
+6. Galleri
 
+*/
+
+
+
+/* 1. Generelt */
 body {
   width: 960px;
   margin: auto;
@@ -9,6 +22,39 @@ html, body {
   height: 100%;
 }
 
+#side {
+  min-height: 100%;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+  width: 960px;
+}
+
+#wrapper {
+  width: 960px;
+  position: relative;
+  min-height: calc(100% - 50px);
+}
+
+
+
+/* 2. Tekst o.l. på siden */
+#innhold {
+  width: 900px;
+  margin: auto;
+}
+
+#innhold p {
+  color: #32220A;
+  margin-left: 30px;
+}
+
+#innhold h1 {
+  margin-left: 30px;
+}
+
+
+
+/* 3.forsidebilde */
 #overskrift {
   position: absolute;
   font-family: Microsoft YaHei Light;
@@ -29,37 +75,14 @@ html, body {
   height: 30px;
 }
 
+
+
+/* 4. Meny */
 #logohvit {
   width: 80px;
   position: absolute;
   top: -6px;
 }
-
-footer {
-	position: absolute;
-	height: 50px;
-  bottom: -50px;
-	width:960px;
-  background-color: #A48F6B;
-  margin: 0
-  font-family: Microsoft YaHei Light;
-  color: #F0F0F0;
-  font-size: 15px;
-  text-align: center;
-  line-height: 50px;
-	}
-
-#innhold p {
-  color: #32220A;
-  margin-left: 30px;
-}
-
-#innhold h1 {
-  margin-left: 30px;
-}
-
-
-
 
 #menu {
   width: 900px;
@@ -71,7 +94,6 @@ footer {
   display: inline-block;
   color: white;
 }
-
 
 #linker {
   text-align: center;
@@ -91,19 +113,6 @@ footer {
 
 #menu a:hover, #myDropdown a:hover {background-color: #C6AA77}
 
-#side {
-  min-height: 100%;
-  background-color: #F5F5F5;
-  margin-top: 20px;
-  width: 960px;
-}
-
-#wrapper {
-  width: 960px;
-  position: relative;
-  min-height: calc(100% - 50px);
-}
-
 #myDropdown {
     display: none;
     position: absolute;
@@ -116,10 +125,22 @@ footer {
     display: block;
 }
 
-#innhold {
-  width: 900px;
-  margin: auto;
-}
+
+
+/* 5. Footer */
+footer {
+	position: absolute;
+	height: 50px;
+  bottom: -50px;
+	width:960px;
+  background-color: #A48F6B;
+  margin: 0
+  font-family: Microsoft YaHei Light;
+  color: #F0F0F0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+	}
 
 #insta {
   position: absolute;
@@ -129,7 +150,6 @@ footer {
   top: 10px;
 }
 
-
 #face {
   position: absolute;
   width: 30px;
@@ -138,6 +158,9 @@ footer {
   top: 10px;
 }
 
+
+
+/* 6. Galleri */
 #tekstgalleri{
   font-size: 120%;
   max-width: 60em;
@@ -169,10 +192,8 @@ footer {
 
 }
 
-
 div.galleribilder{
   margin: 0 auto;
-
 }
 
 .bilde{
@@ -189,7 +210,6 @@ div.galleribilder{
   width: 200px;
   padding-left: 5px;
   padding-right: 5px;
-
   }
 
 .caption {
@@ -198,8 +218,6 @@ div.galleribilder{
     padding-bottom: 5px;
     padding-left: 20px;
     }
-
-
 
 #linktilkjop{
   margin-left: 80%;
@@ -217,7 +235,6 @@ a:hover{
 #innhold2 {
   width: 450px;
 }
-
 
 #kontakt {
   width: 400px;
@@ -280,19 +297,18 @@ a:hover{
   font-size: 80px;
   font-family: arial;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 }
 
 #frem {
     position: absolute;
     right: 20px;
-    top: 260px;
+    top: 300px;
 }
 
 #tilbake {
   position: absolute;
   left: 20px;
-  top: 260px;
+  top: 300px;
 }
 
 #exit {
