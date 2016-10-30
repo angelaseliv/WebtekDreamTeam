@@ -10,20 +10,21 @@
   <div id="wrapper">
     <img src="img/header1.jpg" id="headerbilde">
     <div id="menu">
-      <a href="forside.html">
-        <img src="img/logohvit.png" id="logohvit">
-      </a>
-      <div id="linker">
-        <a href="forside.html">Forside</a>&nbsp;|
-        <a href="galleri.html">Galleri</a>&nbsp;|
-        <a href="kontaktinformasjon.html">Kontakt</a>&nbsp;|
-        <a href="mininspirasjon.html" onmouseover="dropdown()" onmouseout="notDropdown()">Inspirasjon</a>&nbsp;|
-        <div id="myDropdown">
-          <a href="#">Kåseri</a>
-          <a href="#">Fototips</a>
-        </div>
-        <a href="#">Opplevelser</a>
-      </div>
+      <img src="img/logohvit.png" id="logohvit">
+        <ul id="menyinnhold">
+        <li><a href="forside.html" id="menyforside">Forside </a></li>
+        <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a></li>
+        <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
+          <li><a href="#"  id="menykjop">Kjøp</a></li>
+        </ul>
+        <li><a href="kontaktinformasjon.html" id="menykontakt">&nbsp;Kontakt </a></li>
+        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a></li>
+        <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
+          <li><a href="#" id="menykaaseri">Kåseri</a></li>
+          <li><a href="#" id="menyfototips">Fototips</a></li>
+        </ul>
+      <li><a href="#" id="menyopplevelser">&nbsp;Opplevelser</a></li>
+    </ul>
     </div>
 
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->

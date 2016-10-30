@@ -24,7 +24,7 @@ html, body {
 
 #side {
   min-height: 100%;
-  background-color: #F5F5F5;
+  background-color: #F6F2EB;
   margin-top: 20px;
   width: 960px;
 }
@@ -87,7 +87,7 @@ html, body {
 #menu {
   width: 900px;
   height: 55px;
-  line-height: 50px;
+  line-height: 55px;
   background-color: #A48F6B;
   margin: 0 30px;
   position: relative;
@@ -95,15 +95,45 @@ html, body {
   color: white;
 }
 
-#linker {
+
+#menyinnhold {
   text-align: center;
 }
+
 
 #menu a {
   color: #F0F0F0;
   text-decoration: none;
   font-family: Microsoft YaHei Light;
   font-size: 30px;
+  height: 55px;
+}
+
+#menykontakt, #menykaaseri, #menyfototips, #menykjop, #menyforside {
+  border-right: 2px solid white;
+}
+
+#menykontakt, #menykaaseri, #menyfototips, #menykjop, #menyopplevelser {
+  border-left: 2px solid white;
+}
+
+
+#menu ul {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+# a {
+  width: 156px;
+}
+
+#menu li {
+  display: inline;
+  height: 100%;
+
 }
 
 #menu {
@@ -111,18 +141,61 @@ html, body {
   font-size: 30px;
 }
 
-#menu a:hover, #myDropdown a:hover {background-color: #C6AA77}
-
-#myDropdown {
-    display: none;
-    position: absolute;
-    left: 460px;
-    background-color: #A48F6B;
-    min-width: 143.56px;
+#drop2 {
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 449.4px;
+  padding-top: 3px;
+  background-color: #A48F6B;
+  width: 177.5px;
+  height: 110px;
 }
 
-#myDropdown a {
-    display: block;
+#menyinspirasjon {
+  padding-bottom: 30px;
+}
+
+#menu a:hover  {background-color: #C6AA77}
+
+#drop2 a {
+    text-align: center;
+    display: table;
+    width: 173.6px;
+}
+
+#drop2 li {
+  text-align: left;
+}
+
+#menygalleri {
+  padding-bottom: 10px;
+}
+
+#drop {
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 206.8px;
+  padding-top: 3px;
+  background-color: #A48F6B;
+  width: 112.9px;
+  height: 55px;
+}
+
+#menykjop a {
+  width: 50px;
+  text-align: left;
+}
+
+#drop a {
+    text-align: center;
+    display: table;
+    width: 109.9px;
+}
+
+#drop li {
+  text-align: left;
 }
 
 
