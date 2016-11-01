@@ -105,3 +105,14 @@ function nextpic(retning) {
   document.getElementById("vistbilde").src = tag[x].getAttribute("src")
   document.getElementById("infotekst").innerHTML = tag[x].alt;
 }
+
+//Pointer som endres når man peker på mini-bilde
+function setCursorByID(jass,pointer){
+  var elem;
+  if (document.getElementById && 
+     (elem=document.getElementById(jass)) ){
+    if (elem.style) elem.style.cursor=pointer;
+  }
+
+}
+setCursorByID()
