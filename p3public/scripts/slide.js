@@ -24,3 +24,14 @@ function neste(ret) {
   clearInterval(myVar);
   myVar = setInterval(slide, 3000);
 }
+
+function vis(){
+  document.getElementById("right").style.display="block"
+  document.getElementById("left").style.display="block"
+}
+
+
+function ikkevis(){
+  document.getElementById("right").style.display="none"
+  document.getElementById("left").style.display="none"
+}
