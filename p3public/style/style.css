@@ -24,16 +24,15 @@ html, body {
 }
 
 #side {
-  min-height: 100%;
-  background-color: #F6F2EB;
   margin-top: 20px;
   width: 960px;
 }
 
 #wrapper {
   width: 960px;
-  position: relative;
+  position: absolute;
   min-height: calc(100% - 50px);
+  background-color: #F6F2EB;
 }
 
 
@@ -42,7 +41,6 @@ html, body {
 #innhold {
   width: 900px;
   margin: auto;
-  min-height: 850px;
 }
 
 #innhold p {
