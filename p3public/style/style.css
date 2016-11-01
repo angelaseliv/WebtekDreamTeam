@@ -50,6 +50,7 @@ html, body {
 
 #innhold h1 {
   margin-left: 30px;
+  margin-top: 0px;
 }
 
 
@@ -287,6 +288,18 @@ footer {
 
 #right:hover, #left:hover {
  cursor: pointer;
+}
+
+#jenslarssenfoto {
+  text-align: center;
+  font-family: stygg;
+  font-size: 25px;
+  color: #392404
+}
+
+@font-face{
+  font-family: stygg;
+  src: url('fonts/ADAM.CG PRO.otf');
 }
 
 /* 7. Galleri */
