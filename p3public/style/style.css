@@ -6,7 +6,8 @@ OVERSIKT:
 4. Meny
 5. Footer
 6. Forsiden
-7. Galleri
+7. Kjøpesjema
+8. Galleri
 
 */
 
@@ -257,6 +258,38 @@ footer {
 }
 
 
+/* 5. Footer */
+footer {
+	position: absolute;
+	height: 50px;
+  bottom: -50px;
+	width:960px;
+  background-color: #A48F6B;
+  margin: 0
+  font-family: Microsoft YaHei Light;
+  color: #F0F0F0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+	}
+
+#insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 120px;
+  top: 10px;
+}
+
+#face {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 160px;
+  top: 10px;
+}
+
+
 /* 6. Forsiden */
 #left {
   position: absolute;
@@ -302,7 +335,54 @@ footer {
   src: url('fonts/ADAM.CG PRO.otf');
 }
 
-/* 7. Galleri */
+/* 7. Kjøpesjema */
+
+#innholdkjop h1 {
+  text-align: center;
+}
+
+#innholdkjop p {
+  width: 40%;
+  margin-left: 50px;
+
+}
+
+#kjope_skjema{
+  float: left;
+	width: 40%;
+	position: relative;
+}
+
+#kjope_skjema form {
+	position: relative;
+	height: auto;
+	width:100%;
+	line-height: 20px;
+	display: inline-block;
+  text-align: left;
+  margin-left: 50px;
+}
+
+#kjope_skjema #annet_input {
+	height:100px;
+	word-wrap: break-word;
+	white-space: wrap;
+}
+
+#kjope_skjema textarea {
+	width: 100%;
+	height: auto;
+}
+
+#kjope_skjema input {
+	width: 100%;
+}
+
+#kjope_skjema label{
+	font-weight: bold;
+}
+
+/* 8. Galleri */
 #tekstgalleri{
   font-size: 120%;
   max-width: 60em;
@@ -335,7 +415,7 @@ footer {
 }
 
 div.galleribilder{
-  margin-left: -40px;
+  margin: 0 auto;
 }
 
 .bilde{
@@ -401,9 +481,8 @@ a:hover{
 #kontaktbilde {
   margin-top: 40px;
   width: 400px;
-  height: 600px;
+  height: 550px;
   margin-right: 0;
-  margin-bottom: 20px;
 }
 
 #enlargebakgrunn {
@@ -425,6 +504,7 @@ a:hover{
 
 .galleribilder img:hover {
   opacity: 0.7;
+
 }
 
 #innhald img{
