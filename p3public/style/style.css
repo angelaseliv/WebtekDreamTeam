@@ -335,7 +335,7 @@ footer {
 }
 
 div.galleribilder{
-  margin: 0 auto;
+  margin-left: -40px;
 }
 
 .bilde{
@@ -401,8 +401,9 @@ a:hover{
 #kontaktbilde {
   margin-top: 40px;
   width: 400px;
-  height: 550px;
+  height: 600px;
   margin-right: 0;
+  margin-bottom: 20px;
 }
 
 #enlargebakgrunn {
