@@ -43,8 +43,6 @@ function enlarge(bilde) {
   if (tag[tag.length - 1].getAttribute("src") == hoved.getAttribute("src")){
       document.getElementById("frem").style.display="none";
   }
-
-  document.getElementById("exit").onclick = closeit
 }
 
 function closeit(){
@@ -109,7 +107,7 @@ function nextpic(retning) {
 //Pointer som endres når man peker på mini-bilde
 function setCursorByID(jass,pointer){
   var elem;
-  if (document.getElementById && 
+  if (document.getElementById &&
      (elem=document.getElementById(jass)) ){
     if (elem.style) elem.style.cursor=pointer;
   }

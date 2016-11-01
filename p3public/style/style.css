@@ -422,8 +422,8 @@ div.galleribilder{
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .item {
@@ -504,6 +504,7 @@ a:hover{
 
 .galleribilder img:hover {
   opacity: 0.7;
+  cursor: pointer;
 
 }
 

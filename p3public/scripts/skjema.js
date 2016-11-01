@@ -2,9 +2,8 @@
 // Lager skjemaet
 var x = document.getElementById("kjope_skjema");
 var lagskjema = document.createElement('form');
-lagskjema.setAttribute("action","");
-lagskjema.setAttribute("method","post");
-lagskjema.setAttribute("enctype","text/plain")
+lagskjema.setAttribute("method", "POST");
+lagskjema.setAttribute("action","php/sendmail.php");
 x.appendChild(lagskjema);
 
 //Overskrift
@@ -24,11 +23,11 @@ lagskjema.appendChild(label_navn);
 var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
 
-// Navn - input 
+// Navn - input
 var input_navn = document.createElement('input');
 input_navn.setAttribute("type","text");
 input_navn.setAttribute("name","Navn");
-input_navn.setAttribute("pattern","^[a-zA-Z ]+$");
+input_navn.setAttribute("pattern","^[a-zA-ZæøåÆØÅ ]+$");
 input_navn.setAttribute("required",true);
 input_navn.setAttribute("placeholder", "Ditt navn");
 input_navn.setAttribute("id","navn_input")
@@ -94,7 +93,7 @@ var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
 
 
-//Poststed label 
+//Poststed label
 var label_poststed = document.createElement('label');
 label_poststed.innerHTML = "Poststed:";
 lagskjema.appendChild(label_poststed);
@@ -237,6 +236,7 @@ lagskjema.appendChild(linjeskift);
 var input_annet = document.createElement('textarea');
 input_annet.setAttribute("placeholder", "Andre spørsmål? (190 tegn)");
 input_annet.setAttribute("Id", "annet_input");
+input_annet.setAttribute("name","annet");
 input_annet.setAttribute("autoResize","40");
 lagskjema.appendChild(input_annet);
 
@@ -251,7 +251,7 @@ lagskjema.appendChild(linjeskift);
 //Submitknapp
 var submit = document.createElement('input'); // Append Submit Button
 submit.setAttribute("type", "submit");
-submit.setAttribute("name", "dsubmit");
+submit.setAttribute("name", "submit");
 submit.setAttribute("value", "Send inn din bestilling!");
 submit.setAttribute("id", "submit_input");
 lagskjema.appendChild(submit);
