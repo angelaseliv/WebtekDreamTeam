@@ -60,9 +60,15 @@ function closeit(){
 //Gjør så bildevisningen lukkes om man trykker på skjermen utenfor bildet. Veldig rar måte å gjøre det på, men er den enkleste måten for meg da det blir for mye å endre på i html, css og js hvis ikke.
 document.getElementById("innhald").onmouseover = function(){
   musoverbilde = 1
+  document.getElementById("frem").style.opacity = "1";
+  document.getElementById("tilbake").style.opacity = "1";
+  document.getElementById("exit").style.opacity = "1";
 }
 document.getElementById("innhald").onmouseout = function(){
   musoverbilde = 0
+  document.getElementById("frem").style.opacity = "0";
+  document.getElementById("tilbake").style.opacity = "0";
+  document.getElementById("exit").style.opacity = "0";
 }
 bakgrunn.onclick = function(){
   if (musoverbilde == 0){
