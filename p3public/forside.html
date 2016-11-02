@@ -28,17 +28,16 @@
       <li><a href="blogg.html" id="menyopplevelser">&nbsp;Opplevelser</a></li>
     </ul>
     </div>
-    <div id="bildeslide"  onmouseover = "vis()" onmouseout="ikkevis()">
-      <img src="img/header1.jpg" id="headerbilde">
-        <div id="leftright">
-          <span onclick="neste(1)" id="right"><b>&rsaquo;</b></span>
-          <span onclick="neste(-1)" id="left"><b>&lsaquo;</b></span>
-        </div>
-    </div>
 
 
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
-
+    <div id="bildeslide"  onmouseover = "vis()" onmouseout="ikkevis()">
+      <img src="img/header1.jpg" id="headerbilde">
+        <div id="leftright">
+          <span onclick="neste(1)" id="right" class="disable-select"><b>&rsaquo;</b></span>
+          <span onclick="neste(-1)" id="left" class="disable-select"><b>&lsaquo;</b></span>
+        </div>
+    </div>
     <div id="innhold">
       <div id="jenslarssenfoto">
         <br>
