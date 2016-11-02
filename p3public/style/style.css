@@ -9,6 +9,7 @@ OVERSIKT:
 7. Kjøpesjema
 8. Galleri
 
+10.
 */
 
 
@@ -564,4 +565,50 @@ a:hover{
 
 #innhald span:hover {
   cursor: pointer;
+}
+
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 10. Blogg */
+#blogg {
+  width: 800px;
+  margin-top: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.bloggbilde {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#blogg h1 {
+  margin-bottom: 0px;
+}
+
+.innlegg {
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.underskrift {
+  margin: 0;
+  font-size: 75%;
+}
+
+#stjernebilde {
+  float: right;
+  width: 60%;
+  margin-left: 15px;
+}
+
+#stjernebilde img {
+  width: 100%;
 }

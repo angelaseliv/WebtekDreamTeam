@@ -1,4 +1,3 @@
-
 // Lager skjemaet
 var x = document.getElementById("kjope_skjema");
 var lagskjema = document.createElement('form');
