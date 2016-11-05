@@ -658,6 +658,17 @@ a:hover{
   user-select: none;
 }
 
+@media screen and (max-width: 1110px) {
+  #innhald {
+    width: 100%;
+    left: 0%;
+    top: 20%;
+  }
+  #piler {
+    font-size: 1000%;
+  }
+
+
 /* 10. Blogg */
 #blogg {
   width: 800px;
