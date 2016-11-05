@@ -5,27 +5,54 @@
   <link rel="icon" type="image/png" href="img/icon.png">
   <title>Jens Larssen</title>
   <meta charset="utf-8">
+
 </head>
-<body>
+<body onload="slide()">
   <div id="side">
   <div id="wrapper">
     <div id="space"> </div>
     <div id="menu">
-      <img src="img/logohvit.png" id="logohvit">
+      <a href="forside.html" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
+      <div id="menyknapp" onclick="mobil()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
         <ul id="menyinnhold">
+        <li><a href="forside.html" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
         <li><a href="forside.html" id="menyforside">Forside </a></li>
-        <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a></li>
+        <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a>
         <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
           <li><a href="kjop_pris.html"  id="menykjop">Kjøp</a></li>
         </ul>
+      </li>
         <li><a href="kontaktinformasjon.html" id="menykontakt">&nbsp;Kontakt </a></li>
-        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a></li>
+        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a>
         <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
           <li><a href="kaaseri.html" id="menykaaseri">Kåseri</a></li>
           <li><a href="fototips.html" id="menyfototips">Fototips</a></li>
         </ul>
+        </li>
       <li><a href="blogg.html" id="menyopplevelser">&nbsp;Opplevelser</a></li>
     </ul>
+    </div>
+    <div id="mobilmenu">
+      <ul id= "mobilmenuinnhold">
+        <li><a href="forside.html" id="mobilmenyforside">Forside </a></li>
+        <li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a>
+          <ul id="mobildrop1">
+            <li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li>
+          </ul>
+        </li>
+        <li><a href="kontaktinformasjon.html" id="mobilmenykontakt">Kontakt </a></li>
+        <li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Inspirasjon </a>
+          <ul id="mobildrop2">
+            <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
+            <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
+          </ul>
+        </li>
+        <li><a href="blogg.html" id="mobilmenyopplevelser">Opplevelser</a></li>
+      </ul>
     </div>
 
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
@@ -57,4 +84,5 @@
   </div>
   </div>
   <script src="scripts/dropdown.js"></script>
+  <script src="scripts/mobilmenu.js"></script>
 </body>

@@ -81,7 +81,7 @@ html, body {
 
 
 /* 4. Meny */
-#logohvit {
+.logohvit {
   width: 80px;
   position: absolute;
   top: -6px;
@@ -233,6 +233,11 @@ width: 145px;
   display: none;
 }
 
+#mobillogo, #mobilbilde {
+  display: none;
+  position: absolute;
+}
+
 @media screen and (max-width: 1110px) {
   #menyinnhold {
     display: none;
@@ -240,7 +245,7 @@ width: 145px;
   #mobilmenu {
     display: inline;
   }
-  #menyknapp {
+  #menyknapp, #mobillogo, #mobilbilde {
     display: block;
   }
 }
