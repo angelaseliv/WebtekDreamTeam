@@ -27,7 +27,7 @@ session_start();
       session_destroy();
     }
     ?>
-    <p> Dersom du er interresert i å kjøpe et bilde du så i galleriet, skal du her få forklart hvordan du går fram, i tillegg til et skjema hvor du fyller inn informasjon som Jens trenger for å selge/sende bildet til deg.</p>
+    <p> Er du interessert i å kjøpe et bilde? Her kan du sende inn en bestilling på det bilde du vil ha. Da fyller du ut kontaktinformajsonen, og skriver inn bildenavnet og størrelsen du ønsker. Bildene blir levert med ramme, og alle bilder finnes i to ulike størrelser (...x... og ...x...). Du vil få svar på mail med betalingsinformasjon. Vennligst vær nøye med utfyllingen, og dobbelsjekk at din kontaktinformasjon er riktig. Takk! </p>
     <div id="kjope_skjema">
       </div>
     </div>

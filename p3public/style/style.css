@@ -426,16 +426,14 @@ footer {
   text-align: center;
 }
 
-#innholdkjop p {
-  width: 40%;
+#innholdkjop {
+  width: 50%;
   margin-left: 50px;
-
 }
 
 #kjope_skjema{
   float: left;
-	width: 40%;
-	position: relative;
+	width: 60%;
 }
 
 #kjope_skjema form {
@@ -466,6 +464,19 @@ footer {
 #kjope_skjema label{
 	font-weight: bold;
 }
+
+.priseks{
+  width:35%;
+  float:right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border: 5px #32220A solid;
+}
+
+#prisinfo{
+  width:100%;
+}
+
 
 /* 8. Galleri */
 #tekstgalleri{

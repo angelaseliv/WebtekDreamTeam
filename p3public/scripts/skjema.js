@@ -9,7 +9,7 @@ x.appendChild(lagskjema);
 
 var overskrift = document.createElement('h3');
 overskrift.setAttribute("id","skjemaoverskrift");
-overskrift.innerHTML = "Vennligst fyll ut denne informasjonen for bestilling";
+overskrift.innerHTML = "Kontaktinformasjon for bestilling";
 lagskjema.appendChild(overskrift);
 
 
@@ -256,7 +256,7 @@ submit.setAttribute("id", "submit_input");
 lagskjema.appendChild(submit);
 
 var tekst = document.createElement('p');
-tekst.innerHTML = 'Takk for din tid!'
+tekst.innerHTML = 'Takk!'
 lagskjema.appendChild(tekst)
 
 //Inspirasjon funnet på https://www.formget.com/javascript-contact-form/
