@@ -9,7 +9,6 @@
 </head>
 <body onload="slide()">
   <div id="wrapper">
-    <div id="space"> </div>
     <div id="menu">
       <a href="forside.html" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
       <div id="menyknapp" onclick="mobil()">
@@ -20,14 +19,14 @@
         <ul id="menyinnhold">
         <li><a href="forside.html" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
         <li><a href="forside.html" id="menyforside">Forside </a></li>
-        <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a>
-        <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
+        <li><a href="galleri.html" onmouseover="dropdown('drop')" onmouseout="notdropdown('drop')" id = "menygalleri">&nbsp;Galleri </a>
+        <ul id="drop" onmouseover="dropdown('drop')" onmouseout="notdropdown('drop')" style="visibility: hidden;">
           <li><a href="kjop_pris.html"  id="menykjop">Kjøp</a></li>
         </ul>
       </li>
         <li><a href="kontaktinformasjon.html" id="menykontakt">&nbsp;Kontakt </a></li>
-        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a>
-        <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
+        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2')" onmouseout="notdropdown('drop2')" id = "menyinspirasjon">&nbsp;Inspirasjon </a>
+        <ul id="drop2" onmouseover="dropdown('drop2')" onmouseout="notdropdown('drop2')" style="visibility: hidden;">
           <li><a href="kaaseri.html" id="menykaaseri">Kåseri</a></li>
           <li><a href="fototips.html" id="menyfototips">Fototips</a></li>
         </ul>
