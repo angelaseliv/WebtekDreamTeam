@@ -10,7 +10,6 @@ session_start();
   <meta charset="utf-8">
 </head>
 <body>
-  <div id="side">
   <div id="wrapper">
     <div id="space"> </div>
 <nav>
@@ -37,7 +36,6 @@ session_start();
     <footer>
       <?php include ("php/footer.php");?>
     </footer>
-  </div>
   </div>
   <script src="scripts/dropdown.js"></script>
   <script src="scripts/skjema.js"></script>

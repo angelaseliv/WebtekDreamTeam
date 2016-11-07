@@ -7,9 +7,8 @@ OVERSIKT:
 5. Footer
 6. Forsiden
 7. Kjøpesjema
-8. Galleri
-
-10.
+8. Blogg
+9. Galleri
 */
 
 
@@ -23,10 +22,6 @@ body {
 
 html, body {
   height: 100%;
-}
-
-#side {;
-  width: 960px;
 }
 
 #wrapper {
@@ -44,7 +39,7 @@ html, body {
   width: 900px;
   margin: auto;
 }
-
+ /*
 #innhold p {
   color: #32220A;
   margin-left: 30px;
@@ -54,7 +49,7 @@ html, body {
   margin-left: 30px;
   margin-top: 0px;
 }
-
+*/
 
 
 /* 3.forsidebilde */
@@ -74,12 +69,6 @@ html, body {
   margin-bottom: -5px;
 }
 
-#space {
-  height: 30px;
-}
-
-
-
 /* 4. Meny */
 .logohvit {
   width: 80px;
@@ -96,6 +85,7 @@ html, body {
   position: relative;
   display: inline-block;
   color: white;
+  margin-top: 30px;
 }
 
 
@@ -273,9 +263,6 @@ width: 145px;
 
 #mobilmenuinnhold {
   display: none;
-}
-
-#mobilmenuinnhold {
   float: right;
   margin-right: 50px;
 }
@@ -311,36 +298,7 @@ width: 145px;
 }
 
 #mobilmenu a:hover  {background-color: #C6AA77}
-/* 5. Footer */
-footer {
-	position: absolute;
-	height: 50px;
-  bottom: -50px;
-	width:960px;
-  background-color: #A48F6B;
-  margin: 0
-  font-family: Microsoft YaHei Light;
-  color: #F0F0F0;
-  font-size: 15px;
-  text-align: center;
-  line-height: 50px;
-	}
 
-#insta {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 120px;
-  top: 10px;
-}
-
-#face {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 160px;
-  top: 10px;
-}
 
 
 /* 5. Footer */
@@ -373,6 +331,7 @@ footer {
   right: 160px;
   top: 10px;
 }
+
 
 
 /* 6. Forsiden */
@@ -428,7 +387,7 @@ footer {
 
 #innholdkjop {
   width: 50%;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 #kjope_skjema{
@@ -443,7 +402,6 @@ footer {
 	line-height: 20px;
 	display: inline-block;
   text-align: left;
-  margin-left: 50px;
 }
 
 #kjope_skjema #annet_input {
@@ -468,7 +426,7 @@ footer {
 .priseks{
   width:35%;
   float:right;
-  margin-right: 50px;
+  margin-right: 20px;
   margin-bottom: 10px;
   border: 5px #32220A solid;
 }
@@ -477,8 +435,52 @@ footer {
   width:100%;
 }
 
+/* 8. Blogg */
+#blogg {
+  width: 800px;
+  margin: 30px auto;
+}
 
-/* 8. Galleri */
+.bloggbilde {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#blogg h1 {
+  margin-bottom: 0px;
+}
+
+.innlegg {
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.underskrift {
+  margin: 0;
+  font-size: 75%;
+}
+
+#stjernebilde {
+  float: right;
+  width: 60%;
+  margin-left: 15px;
+}
+
+#stjernebilde img {
+  width: 100%;
+}
+
+.bloggspace {
+  width: 960px;
+  height: 35px;
+  background-color: #F3E9DA;
+  margin-left: -90px;
+}
+
+
+/* 9. Galleri */
+
 #tekstgalleri{
   font-size: 120%;
   max-width: 60em;
@@ -678,50 +680,4 @@ a:hover{
   #piler {
     font-size: 1000%;
   }
-}
-
-
-/* 10. Blogg */
-#blogg {
-  width: 800px;
-  margin-top: 40px;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.bloggbilde {
-  width: 100%;
-  margin-top: 15px;
-}
-
-#blogg h1 {
-  margin-bottom: 0px;
-}
-
-.innlegg {
-  margin-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.underskrift {
-  margin: 0;
-  font-size: 75%;
-}
-
-#stjernebilde {
-  float: right;
-  width: 60%;
-  margin-left: 15px;
-}
-
-#stjernebilde img {
-  width: 100%;
-}
-
-.bloggspace {
-  width: 960px;
-  height: 35px;
-  background-color: #F3E9DA;
-  margin-left: -90px;
 }
