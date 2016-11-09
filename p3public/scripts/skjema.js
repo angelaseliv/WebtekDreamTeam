@@ -1,8 +1,3 @@
-// Filnavn:
-// Skrevet av:
-// Dato:
-// Mål:
-
 // Lager skjemaet
 var x = document.getElementById("kjope_skjema");
 var lagskjema = document.createElement('form');
@@ -196,7 +191,6 @@ lagskjema.appendChild(input_bildenavn);
 //Linjeskift
 var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
-
 //Linjeskift
 var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
@@ -216,7 +210,7 @@ var input_storrelse = document.createElement('input');
 input_storrelse.setAttribute("type","text");
 input_storrelse.setAttribute("name","Storrelse");
 input_storrelse.setAttribute("required",true);
-input_storrelse.setAttribute("placeholder", "Bredde x høyde");
+input_storrelse.setAttribute("placeholder", "Skriv inn ønsket størrelse, 13x18 cm eller 20x30 cm");
 input_storrelse.setAttribute("id","storrelse_input");
 lagskjema.appendChild(input_storrelse);
 

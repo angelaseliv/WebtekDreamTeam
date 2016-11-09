@@ -1,7 +1,3 @@
-// Filnavn:
-// Skrevet av:
-// Dato:
-// Mål:
 
 //Funksjon for å få frem undermenyen, som er et parameter, siden flere deler av menyen har denne funksjonen.
 function dropdown(id) {

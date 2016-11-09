@@ -11,6 +11,7 @@ Mål:
   <link rel="icon" type="image/png" href="img/icon.png">
   <title>Bildekåseri</title>
   <meta charset="utf-8">
+
 </head>
 <body>
   <div id="wrapper">
@@ -42,44 +43,46 @@ Mål:
     <div id="mobilmenu">
       <ul id= "mobilmenuinnhold">
         <li><a href="forside.html" id="mobilmenyforside">Forside </a></li>
-        <li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a>
-          <ul id="mobildrop1">
-            <li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li>
-          </ul>
-        </li>
+        <div class = "venstreforpil"><li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a></li></div>
+        <div id="pil"><li id="mobilmenypil2"><a href="#" onclick="mobilchange("ikkevis1")">&rsaquo;</a></div></li>
+        <div id = "ikkevis1">
+        <div id="pil2"><li id="mobilmenypil2"><a href="#" onclick="mobilchange()">&lsaquo;</a></div></li>
+        <div id="hoyreforpil"><li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li></div>
+      </div>
         <li><a href="kontaktinformasjon.html" id="mobilmenykontakt">Kontakt </a></li>
-        <li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Inspirasjon </a>
-          <ul id="mobildrop2">
-            <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
-            <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
-          </ul>
-        </li>
+        <div class="venstreforpil"><li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Insp. </a></li></div>
+        <div id="pil3"><li id="mobilmenypil2"><a href="#">&rsaquo;</a></div></li>
+
+        <div id = "ikkevis2">
+        <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
+        <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
+      </div>
         <li><a href="blogg.html" id="mobilmenyopplevelser">Opplevelser</a></li>
       </ul>
     </div>
 
+
+
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
-
-
     <div id="innhold">
-	<div id="innhold2">
-  <h1 id="overskriftbildekåseri"> Bildekåseri  </h1>
+<div id="innhold2">
+<h1 id="overskriftbildekåseri"> Bildekåseri  </h1>
 
-	<p> Jens Larssen tilbyr gjennom bildekåseri unike innblikk fra sine opplevelser i skog og mark.<br> Kåseriene kan settes sammen i innhold og lengde etter dine ønsker og vil bli
-		presentert ved Jens Larssen og Bård Bakås.
-		<br><br>
-		Et bildekåseri er en visuell presentasjon av en tur eller opplevelse presentert av en foredragsholder. Det er en flott mulighet for å utvikle interesse for naturen eller å oppleve den på en måte man ellers ikke kunne.<br>
-		<br><br>Ønsker du et bildekåseri eller videre henvendelser er det <a href="kontaktinformasjon.html" id="linkkontakt">bare å ta kontakt.<br></a>
+<p> Jens Larssen tilbyr gjennom bildekåseri unike innblikk fra sine opplevelser i skog og mark.<br> Kåseriene kan settes sammen i innhold og lengde etter dine ønsker og vil bli
+presentert ved Jens Larssen og Bård Bakås.
+<br><br>
+Et bildekåseri er en visuell presentasjon av en tur eller opplevelse presentert av en foredragsholder. Det er en flott mulighet for å utvikle interesse for naturen eller å oppleve den på en måte man ellers ikke kunne.<br>
+<br><br>Ønsker du et bildekåseri eller videre henvendelser er det <a href="kontaktinformasjon.html" id="linkkontakt">bare å ta kontakt.<br></a>
 
-		<br>
 
-	</p>
-	</div>
+<br>
 
-	<img src="img/bålbilde.jpg" id="baalbilde" alt="Mørkt bål">
-	<img src="img/flyvendetorsk.jpg" id="torsk" alt ="Flyvende torsk"> 
-    </div>
+</p>
+</div>
 
+<img src="img/bålbilde.jpg" id="baalbilde" alt="Mørkt bål">
+<img src="img/flyvendetorsk.jpg" id="torsk" alt ="Flyvende torsk">
+</div>
     <!-- TIL HER -->
 
     <footer> <span>JENS LUDVIG LARSSEN - +47 934 27 984 – jensludviglarssen@gmail.com - ©2016 &ensp;&ensp; </span>

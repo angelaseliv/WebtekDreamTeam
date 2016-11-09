@@ -1,8 +1,3 @@
-// Filnavn:
-// Skrevet av:
-// Dato:
-// Mål:
-
 var counter = -1; //teller som er satt til -1 som standard, pga. den økes for hver gang funksjonen kjøres, men første bilde som vises er indeks-0.
 var myVar = setInterval(slide, 3000) //tidsintervall på 3 sekunder, som blir brukt for å kjøre bytte-bilde-funksjonen hvert sekund.
 
@@ -11,11 +6,11 @@ bilder = ["img/header1.jpg", "img/header2.jpg", "img/header3.jpg", "img/header4.
 
 //funksjonen som bytter bilde, starter på nytt igjen etter listen er kjørt gjennom.
 function slide(){
-  counter += 1
-  document.getElementById("headerbilde").src = bilder[counter];
-  if (counter >= bilder.length-1) {
+  if (counter === bilder.length-1) {
     counter = -1;
   }
+  counter += 1
+  document.getElementById("headerbilde").src = bilder[counter];
 }
 
 
@@ -23,7 +18,7 @@ function slide(){
 function neste(ret) {
 
   //hvis du er på siste bilde og går videre, starter den på første.
-  if (counter >= bilder.length-1 && ret === 1) {
+  if (counter === bilder.length-1 && ret === 1) {
     counter = -1;
   }
 
@@ -37,6 +32,7 @@ function neste(ret) {
   //resetter counteren, så bildet venter 3 sekunder med å bytte etter du har brukt pilene.
   clearInterval(myVar);
   myVar = setInterval(slide, 3000);
+  console.log(counter)
 }
 
 

@@ -41,6 +41,8 @@ function enlarge(bilde) {
   document.getElementById("footer").style.display="none";
   document.getElementById("frem").style.display="inline";
   document.getElementById("tilbake").style.display="inline";
+  document.body.style.overflow="hidden";
+
 
   if (tag[0].getAttribute("src") == hoved.getAttribute("src")){
       document.getElementById("tilbake").style.display="none";
@@ -56,6 +58,7 @@ function closeit(){
     bakgrunn.style.display="none";
     document.getElementById("footer").style.display="inline";
     x = "forstegang";
+    document.body.style.overflow="auto";
   }
 }
 

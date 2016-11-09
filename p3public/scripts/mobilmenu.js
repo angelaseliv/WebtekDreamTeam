@@ -1,8 +1,3 @@
-// Filnavn:
-// Skrevet av:
-// Dato:
-// Mål:
-
 var knapp = document.getElementById("menyknapp")
 var innhold = document.getElementById("mobilmenuinnhold")
 

@@ -15,7 +15,6 @@ Mål: Side for kjøp av bilder
 </head>
 <body>
   <div id="wrapper">
-    <div id="space"> </div>
     <div id="menu">
       <a href="forside.html" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
       <div id="menyknapp" onclick="mobil()">
@@ -26,14 +25,14 @@ Mål: Side for kjøp av bilder
         <ul id="menyinnhold">
         <li><a href="forside.html" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
         <li><a href="forside.html" id="menyforside">Forside </a></li>
-        <li><a href="galleri.html" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">&nbsp;Galleri </a>
-        <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
+        <li><a href="galleri.html" onmouseover="dropdown('drop')" onmouseout="notdropdown('drop')" id = "menygalleri">&nbsp;Galleri </a>
+        <ul id="drop" onmouseover="dropdown('drop')" onmouseout="notdropdown('drop')" style="visibility: hidden;">
           <li><a href="kjop_pris.html"  id="menykjop">Kjøp</a></li>
         </ul>
       </li>
         <li><a href="kontaktinformasjon.html" id="menykontakt">&nbsp;Kontakt </a></li>
-        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">&nbsp;Inspirasjon </a>
-        <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
+        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2')" onmouseout="notdropdown('drop2')" id = "menyinspirasjon">&nbsp;Inspirasjon </a>
+        <ul id="drop2" onmouseover="dropdown('drop2')" onmouseout="notdropdown('drop2')" style="visibility: hidden;">
           <li><a href="kaaseri.html" id="menykaaseri">Kåseri</a></li>
           <li><a href="fototips.html" id="menyfototips">Fototips</a></li>
         </ul>
@@ -44,45 +43,48 @@ Mål: Side for kjøp av bilder
     <div id="mobilmenu">
       <ul id= "mobilmenuinnhold">
         <li><a href="forside.html" id="mobilmenyforside">Forside </a></li>
-        <li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a>
-          <ul id="mobildrop1">
-            <li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li>
-          </ul>
-        </li>
+        <div class = "venstreforpil"><li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a></li></div>
+        <div id="pil"><li id="mobilmenypil2"><a href="#" onclick="mobilchange("ikkevis1")">&rsaquo;</a></div></li>
+        <div id = "ikkevis1">
+        <div id="pil2"><li id="mobilmenypil2"><a href="#" onclick="mobilchange()">&lsaquo;</a></div></li>
+        <div id="hoyreforpil"><li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li></div>
+      </div>
         <li><a href="kontaktinformasjon.html" id="mobilmenykontakt">Kontakt </a></li>
-        <li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Inspirasjon </a>
-          <ul id="mobildrop2">
-            <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
-            <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
-          </ul>
-        </li>
+        <div class="venstreforpil"><li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Insp. </a></li></div>
+        <div id="pil3"><li id="mobilmenypil2"><a href="#">&rsaquo;</a></div></li>
+
+        <div id = "ikkevis2">
+        <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
+        <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
+      </div>
         <li><a href="blogg.html" id="mobilmenyopplevelser">Opplevelser</a></li>
       </ul>
     </div>
 
+
+
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
     <div id="innhold">
-    <div id="innholdkjop">
-    <h1 class="overskrift">Kjøp</h1>
-      <div id="flytkjop">
-      <h4 id="eksempelbildekjop"> Eksempelbilder: </h4>
-      <img src="img/bilde7.jpg" class="priseks" alt="Eksempelbilde1, bildenavn:Foxtrot">
-      <p>Foxtrot </p>
-      <img src="img/bilde5.jpg" class="priseks" alt="Eksempelbilde2, bildenavn: Hjort i skogen">
-      <p>Hjort i skogen</p>
-      <img src="img/bilde1.jpg" class="priseks" alt="Eksempelbilde3, bildenavn: Villrein i Forollhogna">
-      <p>Villrein i Forollhogna</p>
-      </div>
-    <p> Er du interessert i å kjøpe et bilde? Her kan du sende inn en bestilling på det bilde du vil ha. Da fyller du ut kontaktinformajsonen under. </p> 
-    <p> Bildene leveres innrammet passpartout, og alle bilder finnes i to ulike størrelser (13x18 og 20x30 [cm]). </p>
-    <p>Skriv inn bildenavn, og hvilken størrelse du ønsker på bildet. Du vil få svar på mail med betalingsinformasjon. Vennligst vær nøye med utfyllingen, og dobbelsjekk at din kontaktinformasjon er riktig. Takk!</p>
+  <div id="innholdkjop">
+  <h1 class="overskrift">Kjøp</h1>
+  <div id="flytkjop">
+    <h4 id="eksempelbildekjop"> Eksempelbilder: </h4>
+    <img src="img/bilde7.jpg" class="priseks" alt="Eksempelbilde1, bildenavn:Foxtrot">
+    <p>Foxtrot </p>
+    <img src="img/bilde5.jpg" class="priseks" alt="Eksempelbilde2, bildenavn: Hjort i skogen">
+    <p>Hjort i skogen</p>
+    <img src="img/bilde1.jpg" class="priseks" alt="Eksempelbilde3, bildenavn: Villrein i Forollhogna">
+    <p>Villrein i Forollhogna</p>
     </div>
+  <p> Er du interessert i å kjøpe et bilde? Her kan du sende inn en bestilling på det bilde du vil ha. Da fyller du ut kontaktinformajsonen under. </p>
+  <p> Bildene leveres innrammet passepartout, og alle bilder finnes i to ulike størrelser (13x18 og 20x30 [cm]). </p>
+  <p>Skriv inn bildenavn, og hvilken størrelse du ønsker på bildet. Du vil få svar på mail med betalingsinformasjon. Vennligst vær nøye med utfyllingen, og dobbelsjekk at din kontaktinformasjon er riktig. Takk!.</p>
+  </div>
 
 
-    <div id="kjope_skjema">
-      </div>
+  <div id="kjope_skjema">
     </div>
-
+  </div>
 
     <!-- TIL HER -->
 
