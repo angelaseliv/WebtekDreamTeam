@@ -1,3 +1,8 @@
+// Filnavn:
+// Skrevet av:
+// Dato:
+// Mål:
+
 //Variabler brukt senere i scriptet
 
 var bakgrunn = document.getElementById("enlargebakgrunn");

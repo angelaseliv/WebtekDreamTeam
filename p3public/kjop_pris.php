@@ -1,3 +1,9 @@
+<!--
+Filnavn:
+Skrevet av:
+Dato:
+Mål:
+-->
 <?php
 session_start();
 ?>
