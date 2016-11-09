@@ -15,3 +15,11 @@ function mobil(){
 
   }
 }
+ /*
+function mobilchange(id) {
+  //venstre = document.getElementById(id);
+  //hoyre1 = document.getElementById("drop1")
+  //hoyre2 = document.getElementsByClassName("drop2")
+  console.log(id)
+}
+*/

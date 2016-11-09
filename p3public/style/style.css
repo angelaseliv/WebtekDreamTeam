@@ -8,7 +8,9 @@ OVERSIKT:
 6. Forsiden
 7. Kjøpesjema
 8. Blogg
-9. Galleri
+9. Inspirasjon
+10. fototips
+x. Galleri
 */
 
 
@@ -257,7 +259,7 @@ width: 145px;
 }
 
 #mobilmenuinnhold {
-  display: inline;
+  display: none;
   float: right;
   margin-right: 50px;
 }
@@ -407,21 +409,59 @@ footer {
   src: url('fonts/ADAM.CG PRO.otf');
 }
 
-/* 7. Kjøpesjema */
+
+/* 7. Kjøpeskjema */
 
 #innholdkjop h1 {
   text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 #innholdkjop p {
-  width: 40%;
+  width: 45%;
   margin-left: 20px;
+  font-family: Microsoft YaHei Light;
+}
+
+#flytkjop{
+  float:right;
+  width:45%;
+  clear:right;
+  margin-right: 20px;
+  margin-top:0px;
+}
+
+.kjop_bildenavn {
+  margin:0px;
+  padding:0px;
+  font-weight: italic;
+}
+
+#eksempelbildekjop {
+  margin:0;
+  padding:0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Microsoft YaHei Light;
+}
+
+#flytkjop p{
+  margin-top:0;
+  margin-bottom:10px;
+  font-style: italic;
+}
+
+.priseks{
+  width:100%;
 }
 
 #kjope_skjema{
   float:left;
-	width: 40%;
+  clear:left;
+	width: 45%;
   margin-left:20px;
+  margin-right:0px;
 }
 
 #kjope_skjema form {
@@ -431,6 +471,7 @@ footer {
 	line-height: 20px;
 	display: inline-block;
   text-align: left;
+  font-family: Microsoft YaHei Light;
 }
 
 #kjope_skjema #annet_input {
@@ -450,18 +491,6 @@ footer {
 
 #kjope_skjema label{
 	font-weight: bold;
-}
-
-.priseks{
-  width:35%;
-  float:right;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  border: 5px #32220A solid;
-}
-
-#prisinfo{
-  width:100%;
 }
 
 /* 8. Blogg */
@@ -534,8 +563,157 @@ footer {
 	padding-bottom: 5%;
 }
 
+/* 9. Inspirasjon */
 
-/* 10. Galleri */
+
+#innledninginspirasjon{
+  max-width: 60em;
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 1%;
+  font-size: 120%;
+}
+
+.inspirasjonen{
+  padding-left: 70px;
+  padding-right: 50px;
+  padding-top: 40px;
+  max-width: 60em;
+  line-height: 150%;
+}
+
+#inspirasjon1{
+  max-width: 25em;
+  float: left;
+  padding-left: 60px;
+}
+
+#inspirasjonsbilde1{
+  display: block;
+  float: right;
+  position: relative;
+  padding-right: 60px;
+}
+
+#inspirasjon2{
+  float: right;
+  max-width: 30em;
+  padding-right: 60px;
+}
+
+#inspirasjonsbilde2{
+  float: left;
+  padding-left: 60px;
+}
+
+#inspirasjonsbilde3{
+  padding-right: 10px;
+}
+
+#inspirasjon3{
+  text-align: center;
+  max-width: 60em;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 400px;
+}
+
+#bildersammen{
+  text-align: center;
+}
+
+#inspirasjonsbilde5{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+/*10. Fototips*/
+#parameter {
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.fototips{
+  width: 70%;
+  margin-top: 20px;
+
+}
+#innhold h1{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#f1{
+  float: right;
+  width: 60%;
+  margin-left: 15px;
+
+
+}
+
+#f2_b {
+  margin-top: 3%;
+}
+#f2{
+  float: right;
+  bottom: 10px;
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 3%;
+
+}
+#f3{
+  bottom: 10px;
+  width: 100%;
+  margin: auto;
+  margin-top: 3%;
+  margin-left: 0;
+  margin-right: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* x. Galleri */
 
 #tekstgalleri{
   font-size: 120%;
