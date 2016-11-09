@@ -1,3 +1,10 @@
+<!--
+Filnavn:
+Skrevet av:
+Dato:
+Mål:
+-->
+
 <?php
 $navn = $_POST['Navn'];
 $gatenavn = $_POST['Gatenavn'];

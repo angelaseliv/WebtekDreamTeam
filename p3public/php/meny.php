@@ -1,3 +1,10 @@
+<!--
+Filnavn:
+Skrevet av:
+Dato:
+Mål:
+-->
+
 <div id="menu">
   <a href="forside.php"><img src="img/logohvit.png" id="logohvit"></a>
     <ul id="menyinnhold">
