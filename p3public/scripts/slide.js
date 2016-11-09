@@ -13,7 +13,7 @@ bilder = ["img/header1.jpg", "img/header2.jpg", "img/header3.jpg", "img/header4.
 function slide(){
   counter += 1
   document.getElementById("headerbilde").src = bilder[counter];
-  if (counter === bilder.length-1) {
+  if (counter >= bilder.length-1) {
     counter = -1;
   }
 }
