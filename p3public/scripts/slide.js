@@ -23,7 +23,7 @@ function slide(){
 function neste(ret) {
 
   //hvis du er på siste bilde og går videre, starter den på første.
-  if (counter === bilder.length-1 && ret === 1) {
+  if (counter >= bilder.length-1 && ret === 1) {
     counter = -1;
   }
 
