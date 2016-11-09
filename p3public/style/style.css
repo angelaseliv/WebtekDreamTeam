@@ -436,12 +436,16 @@ footer {
 }
 
 #forsideomjens {
-  width:50%;
+  width:60%;
   margin:auto;
 }
 
 #forsideomjens p {
   font-size: 16px;
+}
+
+#underskrift {
+  font-style: italic;
 }
 
 
