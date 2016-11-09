@@ -196,6 +196,7 @@ lagskjema.appendChild(input_bildenavn);
 //Linjeskift
 var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
+
 //Linjeskift
 var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
