@@ -38,16 +38,19 @@
       <ul id= "mobilmenuinnhold">
         <li><a href="forside.html" id="mobilmenyforside">Forside </a></li>
         <div class = "venstreforpil"><li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a></li></div>
-        <div id="pil"><li id="mobilmenypil2"><a href="#" onclick="mobilchange(this)">&rsaquo;</a></div></li>
-        <li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li>
+        <div id="pil"><li id="mobilmenypil2"><a href="#" onclick="mobilchange("ikkevis1")">&rsaquo;</a></div></li>
+        <div id = "ikkevis1">
+        <div id="pil2"><li id="mobilmenypil2"><a href="#" onclick="mobilchange()">&lsaquo;</a></div></li>
+        <div id="hoyreforpil"><li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li></div>
+      </div>
         <li><a href="kontaktinformasjon.html" id="mobilmenykontakt">Kontakt </a></li>
         <div class="venstreforpil"><li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Insp. </a></li></div>
-        <div id="pil2"><li id="mobilmenypil2"><a href="#">&rsaquo;</a></div>
-          <ul id="mobildrop2">
-            <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
-            <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
-          </ul>
-        </li>
+        <div id="pil3"><li id="mobilmenypil2"><a href="#">&rsaquo;</a></div></li>
+
+        <div id = "ikkevis2">
+        <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
+        <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
+      </div>
         <li><a href="blogg.html" id="mobilmenyopplevelser">Opplevelser</a></li>
       </ul>
     </div>
@@ -66,6 +69,5 @@
     </footer>
   </div>
   <script src="scripts/dropdown.js"></script>
-  <script src="scripts/slide.js"></script>
   <script src="scripts/mobilmenu.js"></script>
 </body>
