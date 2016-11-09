@@ -210,7 +210,7 @@ var input_storrelse = document.createElement('input');
 input_storrelse.setAttribute("type","text");
 input_storrelse.setAttribute("name","Storrelse");
 input_storrelse.setAttribute("required",true);
-input_storrelse.setAttribute("placeholder", "bredde x høyde i px");
+input_storrelse.setAttribute("placeholder", "Bredde x høyde");
 input_storrelse.setAttribute("id","storrelse_input");
 lagskjema.appendChild(input_storrelse);
 
@@ -242,9 +242,7 @@ lagskjema.appendChild(input_annet);
 //Linjeskift
 var linjeskift = document.createElement('br');
 lagskjema.appendChild(linjeskift);
-//Linjeskift
-var linjeskift = document.createElement('br');
-lagskjema.appendChild(linjeskift);
+
 
 
 //Submitknapp
@@ -255,8 +253,16 @@ submit.setAttribute("value", "Send inn din bestilling!");
 submit.setAttribute("id", "submit_input");
 lagskjema.appendChild(submit);
 
-var tekst = document.createElement('p');
-tekst.innerHTML = 'Takk!'
-lagskjema.appendChild(tekst)
+//Linjeskift
+var linjeskift = document.createElement('br');
+lagskjema.appendChild(linjeskift);
+
+//Linjeskift
+var linjeskift = document.createElement('br');
+lagskjema.appendChild(linjeskift);
+
+//Linjeskift
+var linjeskift = document.createElement('br');
+lagskjema.appendChild(linjeskift);
 
 //Inspirasjon funnet på https://www.formget.com/javascript-contact-form/
