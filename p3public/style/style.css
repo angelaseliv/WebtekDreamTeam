@@ -468,8 +468,35 @@ footer {
   margin-left: -90px;
 }
 
+#innhold2 {
+  width: 450px;
+  line-height: 150%;
+  float: left;
+  padding-top: 5%;
+  font-size: 20px;
+}
 
-/* 9. Galleri */
+#linkkontakt {
+	text-align: center;
+
+}
+#baalbilde {
+	height: 235px;
+	padding-right: 5%;
+	padding-top: 10%;
+	float: right;
+
+}
+#torsk {
+	width: 360px;
+	height: 235px;
+	position: relative;
+	float: left;
+	padding-bottom: 5%;
+}
+
+
+/* 10. Galleri */
 
 #tekstgalleri{
   font-size: 120%;
