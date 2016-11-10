@@ -595,11 +595,10 @@ footer {
 
 
 #innledninginspirasjon{
-  max-width: 60em;
-  padding-right: 40px;
-  padding-left: 40px;
+  max-width:85%;
+  margin:auto;
   padding-top: 1%;
-  font-size: 120%;
+  font-size: 16px;
 }
 
 .inspirasjonen{
@@ -748,25 +747,6 @@ footer {
 #gallerioverskrift{
   text-align: center;
   font-size: 32px;
-}
-
-#inspirasjonoverskrift{
-  text-align: center;
-  padding-top: 1%;
-}
-
-#innledninginspirasjon{
-  max-width: 60em;
-  text-align: center;
-  padding-top: 1%;
-  font-size: 120%;
-}
-
-.inspirasjonen{
-  padding-left: 70px;
-  padding-right: 70px;
-  max-width: 60em;
-
 }
 
 div.galleribilder{
