@@ -386,6 +386,13 @@ footer {
   top: 10px;
 }
 
+#utviklerlink{
+  float:right;
+  margin-right:20px;
+  padding-right:20px;
+  color: #392404;
+}
+
 
 /* 6. Forsiden */
 #left {
@@ -926,4 +933,13 @@ a:hover{
   #piler {
     font-size: 1000%;
   }
+}
+
+
+/* x. Dogtags */ 
+
+#dogtags{
+  width:50%;
+  margin:auto;
+  text-align: center;
 }
