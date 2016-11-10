@@ -18,6 +18,7 @@ OVERSIKT:
 9. Inspirasjon
 10. fototips
 11. Kaaser
+12.Kontakt
 
 x. Galleri
 */
@@ -730,7 +731,10 @@ footer {
 	padding-bottom: 5%
 }
 
-
+/*12. Kontakt*/
+#insta_kontakt{
+  text-decoration: none;
+}
 
 /* x. Galleri */
 
