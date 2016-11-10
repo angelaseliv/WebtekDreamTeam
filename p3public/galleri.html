@@ -1,8 +1,8 @@
 <!--
-Filnavn: galleri.html
-Skrevet av: Håvard Hunshamar, Ingrid A. Larssen, Anzhelika Seliv
-Dato: 01/11/2016
-Mål: Presentasjon av fotoverkene til Jens Larssen i form av et galleri
+Filnavn:
+Skrevet av:
+Dato:
+Mål:
 -->
 <!DOCTYPE html>
 <html>
@@ -43,147 +43,160 @@ Mål: Presentasjon av fotoverkene til Jens Larssen i form av et galleri
     <div id="mobilmenu">
       <ul id= "mobilmenuinnhold">
         <li><a href="forside.html" id="mobilmenyforside">Forside </a></li>
-        <div class = "venstreforpil"><li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a></li></div>
-        <div id="pil"><li id="mobilmenypil2"><a href="#" onclick="mobilchange("ikkevis1")">&rsaquo;</a></div></li>
-        <div id = "ikkevis1">
-        <div id="pil2"><li id="mobilmenypil2"><a href="#" onclick="mobilchange()">&lsaquo;</a></div></li>
-        <div id="hoyreforpil"><li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li></div>
-      </div>
+        <li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a>
+          <ul id="mobildrop1">
+            <li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li>
+          </ul>
+        </li>
         <li><a href="kontaktinformasjon.html" id="mobilmenykontakt">Kontakt </a></li>
-        <div class="venstreforpil"><li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Insp. </a></li></div>
-        <div id="pil3"><li id="mobilmenypil2"><a href="#">&rsaquo;</a></div></li>
-
-        <div id = "ikkevis2">
-        <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
-        <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
-      </div>
+        <li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Inspirasjon </a>
+          <ul id="mobildrop2">
+            <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
+            <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
+          </ul>
+        </li>
         <li><a href="blogg.html" id="mobilmenyopplevelser">Opplevelser</a></li>
       </ul>
     </div>
 
-
-
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
+
+
     <div id = "innhold">
-  <div id = "galleriInnhold">
-<h1 id="gallerioverskrift" class="overskrift">Galleri</h1>
+    <div id = "galleriInnhold">
+  <h1 id="gallerioverskrift" class="overskrift">Galleri</h1>
 
-<p id="tekstgalleri"> Her kan du se et lite utvalg av bilder Jens Ludvig Larssen har tatt.
-  For detaljer og navn på bildene, står det under bildet. Det er også mulig å kjøpe bildene, dersom du går innpå siden "kjøp". <p>
+  <p id="tekstgalleri"> Her kan du se et lite utvalg av bilder Jens Ludvig Larssen har tatt.
+    For detaljer og navn på bildene, står det under bildet. Det er også mulig å kjøpe bildene, dersom du går innpå siden "kjøp". <p>
 
-    <div id="linktilkjop">
-      <a href="kjop_pris.html"> Gå til kjøp! </a>
-    </div><br>
+      <div id="linktilkjop">
+        <a href="kjop_pris.php"> Gå til kjøp! </a>
+      </div><br>
 
-<div id="jass">
-<div class="galleribilder">
+  <div id="jass">
+  <div class="galleribilder">
 
 
-<figure class="item">
-  <img class="bilde" src="img/bilde1.jpg" alt="Villrein i Forollhogna" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Villrein i Forollhogna </figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde1.jpg" alt="Villrein i Forollhogna" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Villrein i Forollhogna </figcaption>
+  </figure>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde2.jpg" alt="Forollhogna nasjonalpark" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Forollhogna nasjonalpark </figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde2.jpg" alt="Forollhogna nasjonalpark" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Forollhogna nasjonalpark </figcaption>
+  </figure>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde3.jpg" alt="villrein" style="width:270px"  onclick="enlarge(this)">
-  <figcaption class="caption">Villrein </figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde3.jpg" alt="villrein" style="width:270px"  onclick="enlarge(this)">
+    <figcaption class="caption">Villrein </figcaption>
+  </figure>
+  </div>
+
+  <div class="galleribilder">
+
+  <figure class="item">
+    <img class="bilde" src="img/bilde4.jpg" alt="Rondane" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Rondane </figcaption>
+  </figure>
+
+  <figure class="item">
+    <img class="bilde" src="img/bilde5.jpg" alt="Hjort i skogen" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Hjort i skogen </figcaption>
+  </figure>
+
+  <figure class="item">
+    <img class="bilde" src="img/bilde6.jpg" alt="Fjellrev i Dovrefjell" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Fjellrev i Dovrefjell </figcaption>
+  </figure>
 </div>
 
 <div class="galleribilder">
+  <figure class="item">
+    <img class="bilde" src="img/bilde7.jpg" alt="Foxtrot" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Foxtrot</figcaption>
+  </figure>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde4.jpg" alt="Rondane" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Rondane </figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde8.jpg" alt="Villreinflokk" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Villreinflokk, Forollhogna</figcaption>
+  </figure>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde5.jpg" alt="Hjort i skogen" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Hjort i skogen </figcaption>
-</figure>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde6.jpg" alt="Fjellrev i Dovrefjell" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Fjellrev i Dovrefjell </figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde9.jpg" alt="Villrein foran Hogna" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Villrein foran Forollhogna</figcaption>
+  </figure>
 </div>
 
 <div class="galleribilder">
-<figure class="item">
-  <img class="bilde" src="img/bilde7.jpg" alt="Foxtrot" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Foxtrot</figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde10.jpg" alt="Blomster i solnedgang" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Reinrose i solnedgang</figcaption>
+  </figure>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde8.jpg" alt="Villreinflokk" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Villreinflokk, Forollhogna</figcaption>
-</figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde11.jpg" alt="Sommerfugl" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Sommerfugl </figcaption>
+  </figure>
 
+  <figure class="item">
+    <img class="bilde" src="img/bilde12.jpg" alt="blåvinget vannymfe" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption">Blåvinget vannymfe</figcaption>
+  </figure>
+  </div>
 
-<figure class="item">
-  <img class="bilde" src="img/bilde9.jpg" alt="Villrein foran Hogna" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Villrein foran Forollhogna</figcaption>
-</figure>
+  <div class="galleribilder">
+
+  <figure class="item">
+    <img class="bilde" src="img/bilde13.jpg" alt="Sommerfugl på hundekjeks" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Sommerfugl på hundekjeks </figcaption>
+  </figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde14.jpg" alt="Tiur i vinterlandskap" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Tiur i vinterlandskap </figcaption>
+  </figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde15.jpg" alt="Moskus" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Moskus </figcaption>
+  </figure>
+  </div>
+
+  <div class="galleribilder">
+  <figure class="item">
+    <img class="bilde" src="img/bilde16.jpg" alt="Rådyr i vinterlandskap" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Rådyr i vinterlandskap </figcaption>
+  </figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde17.jpg" alt="Padling i solnedgang" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Padling i solnedgang </figcaption>
+  </figure>
+  <figure class="item">
+    <img class="bilde" src="img/bilde18.jpg" alt="Solnedgang" style="width:270px" onclick="enlarge(this)">
+    <figcaption class="caption"> Solnedgang </figcaption>
+  </figure>
+  </div> <br><br>
 </div>
 
-<div class="galleribilder">
-<figure class="item">
-  <img class="bilde" src="img/bilde10.jpg" alt="Blomster i solnedgang" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Reinrose i solnedgang</figcaption>
-</figure>
-
-<figure class="item">
-  <img class="bilde" src="img/bilde11.jpg" alt="Sommerfugl" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Sommerfugl </figcaption>
-</figure>
-
-<figure class="item">
-  <img class="bilde" src="img/bilde12.jpg" alt="blåvinget vannymfe" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption">Blåvinget vannymfe</figcaption>
-</figure>
-</div>
-
-<div class="galleribilder">
-
-<figure class="item">
-  <img class="bilde" src="img/bilde13.jpg" alt="Sommerfugl på hundekjeks" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Sommerfugl på hundekjeks </figcaption>
-</figure>
-<figure class="item">
-  <img class="bilde" src="img/bilde14.jpg" alt="Tiur i vinterlandskap" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Tiur i vinterlandskap </figcaption>
-</figure>
-<figure class="item">
-  <img class="bilde" src="img/bilde15.jpg" alt="Moskus" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Moskus </figcaption>
-</figure>
-</div>
-
-<div class="galleribilder">
-<figure class="item">
-  <img class="bilde" src="img/bilde16.jpg" alt="Rådyr i vinterlandskap" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Rådyr i vinterlandskap </figcaption>
-</figure>
-<figure class="item">
-  <img class="bilde" src="img/bilde17.jpg" alt="Padling i solnedgang" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Padling i solnedgang </figcaption>
-</figure>
-<figure class="item">
-  <img class="bilde" src="img/bilde18.jpg" alt="Solnedgang" style="width:270px" onclick="enlarge(this)">
-  <figcaption class="caption"> Solnedgang </figcaption>
-</figure>
-</div> <br><br>
+<div id="enlargebakgrunn">
+  <div id="innhald">
+    <img id="vistbilde" class="disable-select">
+    <div id="infotekst"></div>
+      <div id = "piler">
+        <span onclick="nextpic(1)" id="frem" class="disable-select"><b>&rsaquo;</b></span>
+        <span onclick="nextpic(-1)" id="tilbake" class="disable-select"><b>&lsaquo;</b></span>
+      </div>
+      <span id="exit" onclick="closeit()" class="disable-select">&times;</span>
+    </div>
 </div>
 </div>
 </div>
+
+
+
     <!-- TIL HER -->
 
-    <footer> <span>JENS LUDVIG LARSSEN - +47 934 27 984 – jensludviglarssen@gmail.com - ©2016 &ensp;&ensp; </span>
+    <footer id = "footer"> <span>JENS LUDVIG LARSSEN - +47 934 27 984 – jensludviglarssen@gmail.com - ©2016 &ensp;&ensp; </span>
         <a href="https://www.instagram.com/jensludviglarssen/" target="_blank">
           <img src="img/instalogo.png" id="insta">
         <a href="https://www.instagram.com/jensludviglarssen/" target="_blank">
