@@ -58,6 +58,7 @@ html, body {
   width: 900px;
   margin: auto;
   font-size: 16px;
+  line-height: 150%;
 }
 
 
@@ -442,7 +443,6 @@ footer {
 #jenslarssenfoto h5 {
   font-size: 20px;
   font-style: italic;
-  font-family: microsoft yahei light;
 }
 
 #forsideomjens {
@@ -597,16 +597,14 @@ footer {
 #innledninginspirasjon{
   max-width:85%;
   margin:auto;
-  padding-top: 1%;
-  font-size: 16px;
+  padding-top: 20px;
 }
 
 .inspirasjonen{
   padding-left: 70px;
   padding-right: 50px;
-  padding-top: 40px;
+  padding-top: 60px;
   max-width: 60em;
-  line-height: 150%;
 }
 
 #inspirasjon1{
@@ -668,7 +666,7 @@ footer {
 
 }
 #innhold h1{
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-top: 20px;
 }
 
@@ -705,29 +703,31 @@ footer {
 
 #innhold2 {
   width: 450px;
-  line-height: 150%;
   float: left;
-  padding-top: 2%;
-  font-size: 20px;
+  margin-left:20px;
 }
 #minoverskrift{
 	font-size: 32px;
+  margin-bottom:10px;
+  padding-bottom: 10px;
+  margin-left:75px;
+  padding-left:75px;
 }
 #torsk {
-	width: 390px;
+	width: 32%;
 	float: right;
 	padding-right: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 10px;
 
 }
 
 #baalbilde {
-	width: 390px;
+	width: 32%;
 	position: inline;
 	float: right;
 	padding-right: 5%;
-	padding-top: 5%;
-	padding-bottom: 5%
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 /*12. Kontakt*/
