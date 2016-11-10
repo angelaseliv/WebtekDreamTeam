@@ -1,3 +1,8 @@
+// Filnavn: scripts/mobilmenu.js
+// Skrevet av: Håvard Hunshamar, Jacob W. Glad-Ørbak
+// Dato: 09/11/2016
+// Mål: gjøre nettsider mer brukervennlig ved bruk av mobil-enheter for å lese nettsiden
+
 var knapp = document.getElementById("menyknapp")
 var innhold = document.getElementById("mobilmenuinnhold")
 

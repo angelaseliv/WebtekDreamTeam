@@ -1,3 +1,7 @@
+// Filnavn: scripts/dropdown.js
+// Skrevet av: Jacob W. Glad-Ørbak
+// Dato: 21/10/2016
+// Mål: Funksjonen for dropdown-menyen
 
 //Funksjon for å få frem undermenyen, som er et parameter, siden flere deler av menyen har denne funksjonen.
 function dropdown(id) {

@@ -1,3 +1,8 @@
+// Filnavn: scripts/skjema.js
+// Skrevet av: Miriam Lillebo
+// Dato: 01/11/2016
+// Mål: Skjema for bestilling av bilder og direkte sending av bestillingen til mail
+
 // Lager skjemaet
 var x = document.getElementById("kjope_skjema");
 var lagskjema = document.createElement('form');

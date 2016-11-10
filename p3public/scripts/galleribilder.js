@@ -1,7 +1,8 @@
-// Filnavn:
-// Skrevet av:
-// Dato:
-// Mål:
+// Filnavn: scripts/galleribilder.js
+// Skrevet av: Håvard Hunshamar, Ingrid A. Larssen
+// Dato: 01/11/2016
+// Mål: Ved å trykke på et bilde i mini-størrelse fra galleriet kommer det utvalgte bildet i full størrelse. 
+// + mulighet for å bla gjennom bildene både ved hjelp av tastatur og bare mus. 
 
 //Variabler brukt senere i scriptet
 

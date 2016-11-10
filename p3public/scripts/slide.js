@@ -1,3 +1,8 @@
+// Filnavn: scripts/slide.js
+// Skrevet av: Håvard Hunshamar, Anzhelika Seliv.
+// Dato: 01/11/2016
+// Mål: Effekten på forsiden - slide-show av headerbilder med mulighet for å bla gjennom bildene
+
 var counter = -1; //teller som er satt til -1 som standard, pga. den økes for hver gang funksjonen kjøres, men første bilde som vises er indeks-0.
 var myVar = setInterval(slide, 3000) //tidsintervall på 3 sekunder, som blir brukt for å kjøre bytte-bilde-funksjonen hvert sekund.
 
