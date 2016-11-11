@@ -1,8 +1,8 @@
 <!--
-Filnavn: index.html
-Skrevet av: Alle
-Dato: 21.10.16
-Mål: Mal for siden, dette er lagt inn i egne php-sider som er inkludert på alle sidene.
+Filnavn: forside.html
+Skrevet av: Miriam Lillebo, Håvard Hunshamar, Ingrid A. Larssen
+Dato: 21/10/2016
+Mål: Forside-side. Første side man kommer på ved å entre nettsiden.
 -->
 <!DOCTYPE html>
 <html>
@@ -64,6 +64,28 @@ Mål: Mal for siden, dette er lagt inn i egne php-sider som er inkludert på all
 
 
     <!--ALT SOM SKAL STÅ PÅ SIDEN SKRIVES HER-->
+    <div id="bildeslide"  onmouseover = "vis()" onmouseout="ikkevis()">
+  <img src="img/header1.jpg" id="headerbilde">
+    <div id="leftright">
+      <span onclick="neste(1)" id="right" class="disable-select"><b>&rsaquo;</b></span>
+      <span onclick="neste(-1)" id="left" class="disable-select"><b>&lsaquo;</b></span>
+    </div>
+</div>
+<div id="innhold">
+  <div id="jenslarssenfoto">
+    <br>
+  <h1>Jens Larssen Foto</h1>
+
+  <h5 id="forsidetekst"> "Livet er best ute" </h5>
+
+  <div id="forsideomjens">
+  <p> Mitt navn er Jens Ludvig Larssen. Jeg bor på Støren, som er et tettsted i Midtre Gauldal, omtrent en times kjøring utenfor Trondheim. Jeg er veldig glad i natur og friluftsliv. Det fører til at jeg liker å drive med jakt, fiske, kanoturer, fotturer og skiturer. Til alle disse aktivitetene er det en fellesnevner; nemlig naturfoto. </p>
+  <p>Interessen for foto begynte i tidlig voksen alder etter flere turer i skog og mark, etter jeg begynte å ta med kamera ut for å dokumentere for eget bruk, samt vise til familie og venner. Denne interessen har ført til et stort mangfold av bilder med ulike motiv. Noen av disse kan du finne i galleriet. Disse bildene kan også kjøpes. </p>
+  <p> Naturen er i seg selv inspirerende, og for meg er det viktig å fange opp litt av det med et kamera. Kanskje du her finner et bilde du synes passer fint på veggen din? Eller kanskje du finner litt tips til å gå ut å ta dine egne bilder? Uansett håper jeg du kan finne litt inspirasjon på denne nettsiden. </p>
+  <p id="underskriftforside"> Jens Ludvig Larssen </p>
+ </div>
+</div>
+</div>
     <!-- TIL HER -->
 
     <footer> <span>JENS LUDVIG LARSSEN - +47 934 27 984 – jensludviglarssen@gmail.com - ©2016 &ensp;&ensp; </span>
@@ -77,4 +99,5 @@ Mål: Mal for siden, dette er lagt inn i egne php-sider som er inkludert på all
   </div>
   <script src="scripts/dropdown.js"></script>
   <script src="scripts/mobilmenu.js"></script>
+  <script src="scripts/slide.js"></script>
 </body>
