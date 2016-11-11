@@ -37,7 +37,7 @@ function neste(ret) {
   //resetter counteren, så bildet venter 3 sekunder med å bytte etter du har brukt pilene.
   clearInterval(myVar);
   myVar = setInterval(slide, 3000);
-  console.log(counter)
+  
 }
 
 

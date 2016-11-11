@@ -1,43 +1,45 @@
 <div id="menu">
-  <a href="index.php" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
-  <div id="menyknapp" onclick="mobil()">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </div>
-    <ul id="menyinnhold">
-    <li><a href="index.php" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
-    <li><a href="forsip.php" id="menyforside">Forside </a></li>
-    <li><a href="galleri.php" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">Galleri </a>
-    <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
-      <li><a href="kjop_pris.php"  id="menykjop">Kjøp</a></li>
+      <a href="index.html" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
+      <div id="menyknapp" onclick="mobil()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+        <ul id="menyinnhold">
+        <li><a href="index.html" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
+        <li><a href="index.html" id="menyforside">Forside </a></li>
+        <li><a href="galleri.html" onmouseover="dropdown('drop')" onmouseout="notdropdown('drop')" id = "menygalleri">Galleri </a>
+        <ul id="drop" onmouseover="dropdown('drop')" onmouseout="notdropdown('drop')" style="visibility: hidden;">
+          <li><a href="kjop_pris.html"  id="menykjop">Kjøp</a></li>
+        </ul>
+      </li>
+        <li><a href="blogg.html" id="menyopplevelser">Opplevelser </a></li>
+        <li><a href="mininspirasjon.html" onmouseover="dropdown('drop2')" onmouseout="notdropdown('drop2')" id = "menyinspirasjon">Inspirasjon </a>
+        <ul id="drop2" onmouseover="dropdown('drop2')" onmouseout="notdropdown('drop2')" style="visibility: hidden;">
+          <li><a href="kaaseri.html" id="menykaaseri">Kåseri</a></li>
+          <li><a href="fototips.html" id="menyfototips">Fototips</a></li>
+        </ul>
+        </li>
+      <li><a href="kontaktinformasjon.html" id="menykontakt">Kontakt</a></li>
     </ul>
-  </li>
-    <li><a href="kontaktinformasjon.php" id="menykontakt">Kontakt </a></li>
-    <li><a href="mininspirasjon.php" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" id = "menyinspirasjon">Inspirasjon </a>
-    <ul id="drop2" onmouseover="dropdown('drop2', 'menyinspirasjon')" onmouseout="notdropdown('drop2', 'menyinspirasjon')" style="visibility: hidden;">
-      <li><a href="kaaseri.php" id="menykaaseri">Kåseri</a></li>
-      <li><a href="fototips.php" id="menyfototips">Fototips</a></li>
-    </ul>
-    </li>
-  <li><a href="blogg.php" id="menyopplevelser">&nbsp;Opplevelser</a></li>
-</ul>
-</div>
-<div id="mobilmenu">
-  <ul id= "mobilmenuinnhold">
-    <li><a href="index.php" id="mobilmenyforside">Forside </a></li>
-    <li><a href="galleri.php" id = "mobilmenygalleri">Galleri </a>
-      <ul id="mobildrop1">
-        <li><a href="kjop_pris.php"  id="mobilmenykjop">Kjøp</a></li>
+    </div>
+    <div id="mobilmenu">
+      <ul id= "mobilmenuinnhold">
+        <li><a href="index.html" id="mobilmenyforside">Forside </a></li>
+        <div class = "venstreforpil"><li><a href="galleri.html" id = "mobilmenygalleri">Galleri </a></li></div>
+        <div id="pil"><li id="mobilmenypil2"><a href="#" onclick="mobilchange("ikkevis1")">&rsaquo;</a></div></li>
+        <div id = "ikkevis1">
+        <div id="pil2"><li id="mobilmenypil2"><a href="#" onclick="mobilchange()">&lsaquo;</a></div></li>
+        <div id="hoyreforpil"><li><a href="kjop_pris.html"  id="mobilmenykjop">Kjøp</a></li></div>
+      </div>
+        <li><a href="kontaktinformasjon.html" id="mobilmenykontakt">Kontakt </a></li>
+        <div class="venstreforpil"><li><a href="mininspirasjon.html" id="mobilmenyinspirasjon">Insp. </a></li></div>
+        <div id="pil3"><li id="mobilmenypil2"><a href="#">&rsaquo;</a></div></li>
+
+        <div id = "ikkevis2">
+        <li><a href="kaaseri.html" id="mobilmenykaaseri">Kåseri</a></li>
+        <li><a href="fototips.html" id="mobilmenyfototips">Fototips</a></li>
+      </div>
+        <li><a href="blogg.html" id="mobilmenyopplevelser">Opplevelser</a></li>
       </ul>
-    </li>
-    <li><a href="kontaktinformasjon.php" id="mobilmenykontakt">Kontakt </a></li>
-    <li><a href="mininspirasjon.php" id="mobilmenyinspirasjon">Inspirasjon </a>
-      <ul id="mobildrop2">
-        <li><a href="kaaseri.php" id="mobilmenykaaseri">Kåseri</a></li>
-        <li><a href="fototips.php" id="mobilmenyfototips">Fototips</a></li>
-      </ul>
-    </li>
-    <li><a href="blogg.php" id="mobilmenyopplevelser">Opplevelser</a></li>
-  </ul>
-</div>
+    </div>
