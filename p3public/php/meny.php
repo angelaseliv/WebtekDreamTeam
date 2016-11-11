@@ -1,13 +1,13 @@
 <div id="menu">
-  <a href="forside.php" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
+  <a href="index.php" id="mobillogo"><img src="img/logohvit.png" class="logohvit" id="mobilbilde" class="disable-select"></a>
   <div id="menyknapp" onclick="mobil()">
     <div class="line"></div>
     <div class="line"></div>
     <div class="line"></div>
   </div>
     <ul id="menyinnhold">
-    <li><a href="forside.php" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
-    <li><a href="forside.php" id="menyforside">Forside </a></li>
+    <li><a href="index.php" id="hjembilde"><img src="img/logohvit.png" class="logohvit" class="disable-select"></a></li>
+    <li><a href="forsip.php" id="menyforside">Forside </a></li>
     <li><a href="galleri.php" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" id = "menygalleri">Galleri </a>
     <ul id="drop" onmouseover="dropdown('drop', 'menygalleri')" onmouseout="notdropdown('drop', 'menygalleri')" style="visibility: hidden;">
       <li><a href="kjop_pris.php"  id="menykjop">Kjøp</a></li>
@@ -25,7 +25,7 @@
 </div>
 <div id="mobilmenu">
   <ul id= "mobilmenuinnhold">
-    <li><a href="forside.php" id="mobilmenyforside">Forside </a></li>
+    <li><a href="index.php" id="mobilmenyforside">Forside </a></li>
     <li><a href="galleri.php" id = "mobilmenygalleri">Galleri </a>
       <ul id="mobildrop1">
         <li><a href="kjop_pris.php"  id="mobilmenykjop">Kjøp</a></li>
