@@ -111,7 +111,7 @@ html, body {
   height: 55px;
 }
 
-#menykontakt, #menykaaseri, #menyfototips, #menykjop, #menyforside {
+#menykaaseri, #menyfototips, #menykjop, #menyforside, #menyopplevelser {
   border-right: 2px solid white;
 }
 
@@ -139,11 +139,11 @@ html, body {
 }
 
 #menygalleri {
-  width: 120px;
+  width: 145px;
 }
 
 #menykontakt {
-width: 145px;
+width: 149px;
 }
 
 #menyinspirasjon {
@@ -172,7 +172,7 @@ width: 145px;
   position: absolute;
   text-align: center;
   top: 100%;
-  left: 487px;
+  left: 567px;
   padding-top: 3px;
   background-color: #A48F6B;
   width: 184px;
@@ -206,7 +206,7 @@ width: 145px;
   left: 218px;
   padding-top: 3px;
   background-color: #A48F6B;
-  width: 124px;
+  width: 149px;
   height: 55px;
 }
 
@@ -217,7 +217,7 @@ width: 145px;
 #drop a {
     text-align: center;
     display: table;
-    width: 120px;
+    width: 145px;
 }
 
 #drop li {
@@ -920,7 +920,7 @@ a:hover{
 }
 
 
-/* x. Dogtags */ 
+/* x. Dogtags */
 
 #dogtags{
   width:50%;
