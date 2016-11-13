@@ -237,6 +237,7 @@ width: 149px;
   position: absolute;
 }
 
+/*Det blir kjørt mobil-meny når skjermoppløsning blir mindre enn 1110px*/
 @media screen and (max-width: 1110px) {
   #menyinnhold {
     display: none;
@@ -302,58 +303,6 @@ width: 149px;
   border-top: 1px solid white;
 }
 
-.venstreforpil,.venstreforpil li {
-  width: 248px;
-}
-
-.venstreforpil {
-  margin-right: -4px;
-  display: inline-block;
-}
-
-
-#hoyreforpil, #hoyreforpil li {
-  width: 248px;
-}
-
-#hoyreforpil {
-  margin-left: -4px;
-  display: inline-block;
-}
-
-
-#pil, #pil li {
-  width: 50px;
-  display: inline-block;
-}
-
-#pil li {
-  border-left: 1px solid white;
-}
-
-#pil2 li {
-  border-right: 1px solid white;
-}
-
-#pil2, #pil2 li {
-  width: 50px;
-  display: inline-block;
-}
-
-#pil3 li {
-  border-left: 1px solid white;
-}
-
-#pil3, #pil3 li {
-  width: 50px;
-  display: inline-block;
-}
-
-
-
-#mobildrop1, #mobildrop2 {
-  display: none;
-}
 #mobilmenu a:hover  {background-color: #C6AA77}
 
 
@@ -380,6 +329,7 @@ footer {
   top: 10px;
 }
 
+/*link til Twitter*/
 #face {
   position: absolute;
   width: 30px;
@@ -461,6 +411,7 @@ footer {
 
 
 
+/*henter lokal font*/
 @font-face{
   font-family: sexy;
   src: url('fonts/ADAM.CG PRO.otf');
