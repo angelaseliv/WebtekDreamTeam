@@ -24,12 +24,3 @@ function mobil(){
 
   }
 }
-
-function mobilchange(id) {
-  var venstre = document.getElementById(id);
-  document.getElementById("mobilmenygalleri").style.display = "none"
-  document.getElementById("pil").style.display = "none";
-  venstre.style.display = "inline";
-
-  console.log(id)
-}
